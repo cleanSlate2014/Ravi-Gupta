@@ -1,0 +1,745 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Style For Repeat Button Start Here-->
+    <Style  TargetType="{x:Type RepeatButton}">
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="IsTabStop" Value="false"/>
+        <Setter Property="Focusable" Value="false"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Rectangle Fill="Transparent"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Style For Repeat Button End Here-->
+    
+    
+    
+    <!--Style For Basic Slider Circle Start Here-->
+    <Style  TargetType="{x:Type Slider}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Background}" BorderBrush="{DynamicResource Border}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource basiccircle}"/>
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="basiccircle">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Ellipse  Stroke="#FF000000" Height="10" Width="10" Fill="#222"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Background" Color="Black"/>
+    <LinearGradientBrush x:Key="Border" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#FF333333" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Basic Slider Circle End Here-->
+
+
+    <!--Style For Primary Slider  Circle Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderPrimary">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundcircleprimary}" BorderBrush="{DynamicResource Bordercircleprimary}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource primarycircle}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="primarycircle">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Ellipse  Stroke="#FF428bca" Height="10" Width="10" Fill="#428bca"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundcircleprimary" Color="#428bca"/>
+    <LinearGradientBrush x:Key="Bordercircleprimary" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#FF428bca" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Primary Slider  Circle  End Here-->
+
+
+    <!--Style For Danger Slider  Circle Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderDanger">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundcircledanger}" BorderBrush="{DynamicResource Bordercircledanger}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource dangercircle}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="dangercircle">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Ellipse  Stroke="#FFd9534f" Height="10" Width="10" Fill="#d9534f"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundcircledanger" Color="#d9534f"/>
+    <LinearGradientBrush x:Key="Bordercircledanger" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#d9534f" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Danger Slider Circle  End Here-->
+
+
+    <!--Style For Success Slider  Circle Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderSuccess">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundcirclesuccess}" BorderBrush="{DynamicResource Bordercirclesuccess}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource successcircle}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="successcircle">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Ellipse  Stroke="#FF5cb85c" Height="10" Width="10" Fill="#5cb85c"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundcirclesuccess" Color="#5cb85c"/>
+    <LinearGradientBrush x:Key="Bordercirclesuccess" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#5cb85c" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Success  Circle Slider End Here-->
+
+
+    <!--Style For Basic Slider Horizontol Rect Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderHorizontalBasic">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundhorizontalbasic}" BorderBrush="{DynamicResource Borderhorizontalbasic}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource basichorizontal}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="basichorizontal">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Rectangle  Stroke="#FF222222" Height="10" Width="25" Fill="#222" RadiusX="3" RadiusY="3" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundhorizontalbasic" Color="Black"/>
+    <LinearGradientBrush x:Key="Borderhorizontalbasic" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#222" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Basic Slider Horizontal Rect End Here-->
+
+
+    <!--Style For Primary Slider Horizontol Rect Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderHorizontalPrimary">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundhorizontalprimary}" BorderBrush="{DynamicResource Borderhorizontalprimary}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource primaryhorizontal}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="primaryhorizontal">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Rectangle  Stroke="#FF428bca" Height="10" Width="25" Fill="#428bca" RadiusX="3" RadiusY="3" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundhorizontalprimary" Color="#428bca"/>
+    <LinearGradientBrush x:Key="Borderhorizontalprimary" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#428bca" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Primary Slider Horizontal Rect End Here-->
+
+
+    <!--Style For Danger Slider Horizontol Rect Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderHorizontalDanger">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundhorizontaldanger}" BorderBrush="{DynamicResource Borderhorizontaldanger}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource dangerhorizontal}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="dangerhorizontal">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Rectangle  Stroke="#FFd9534f" Height="10" Width="25" Fill="#d9534f" RadiusX="3" RadiusY="3" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundhorizontaldanger" Color="#d9534f"/>
+    <LinearGradientBrush x:Key="Borderhorizontaldanger" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#d9534f" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Danger Slider Horizontal Rect End Here-->
+
+
+    <!--Style For Success Slider Horizontol Rect Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderHorizontalSuccess">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundhorizontalsuccess}" BorderBrush="{DynamicResource Borderhorizontalsuccess}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource successhorizontal}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="successhorizontal">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Rectangle  Stroke="#FF5cb85c" Height="10" Width="25" Fill="#5cb85c" RadiusX="3" RadiusY="3" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundhorizontalsuccess" Color="#5cb85c"/>
+    <LinearGradientBrush x:Key="Borderhorizontalsuccess" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#5cb85c" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Success Slider Horizontal Rect End Here-->
+
+
+    <!--Style For Basic Slider Vertical Rect Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderVerticalBasic">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundverticalbasic}" BorderBrush="{DynamicResource Borderverticalbasic}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource basicvertical}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="basicvertical">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Rectangle  Stroke="#FF222222" Height="25" Width="10" Fill="#222" RadiusX="3" RadiusY="3" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundverticalbasic" Color="#222"/>
+    <LinearGradientBrush x:Key="Borderverticalbasic" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#222" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Basic Slider Vertical Rect End Here-->
+
+
+    <!--Style For Primary Slider Vertical Rect Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderVerticalPrimary">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundverticalprimary}" BorderBrush="{DynamicResource Borderverticalprimary}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource primaryvertical}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="primaryvertical">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Rectangle  Stroke="#FF428bca" Height="25" Width="10" Fill="#428bca" RadiusX="3" RadiusY="3" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundverticalprimary" Color="#428bca"/>
+    <LinearGradientBrush x:Key="Borderverticalprimary" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#428bca" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Primary Slider Vertical Rect End Here-->
+
+
+    <!--Style For Danger Slider Vertical Rect Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderVerticalDanger">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundverticaldanger}" BorderBrush="{DynamicResource Borderverticaldanger}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource dangervertical}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="dangervertical">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Rectangle  Stroke="#FFd9534f" Height="25" Width="10" Fill="#d9534f" RadiusX="3" RadiusY="3" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundverticaldanger" Color="#d9534f"/>
+    <LinearGradientBrush x:Key="Borderverticaldanger" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#d9534f" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Danger Slider Vertical Rect End Here-->
+
+
+    <!--Style For Success Slider Vertical Rect Start Here-->
+    <Style  TargetType="{x:Type Slider}" x:Key="sliderVerticalSuccess">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                            <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                            <Border x:Name="TrackBackground" Background="{DynamicResource Backgroundverticalsuccess}" BorderBrush="{DynamicResource Borderverticalsuccess}" BorderThickness="1" CornerRadius="1" Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                <Canvas Margin="-6,-1">
+                                    <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                        Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                        Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                        StrokeThickness="1.0"/>
+                                </Canvas>
+                            </Border>
+                            <Track x:Name="PART_Track" Grid.Row="1">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.DecreaseLarge}"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static Slider.IncreaseLarge}"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Style="{DynamicResource successvertical}" />
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type Thumb}" x:Key="successvertical">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Rectangle  Stroke="#FF5cb85c" Height="25" Width="10" Fill="#5cb85c" RadiusX="3" RadiusY="3" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <SolidColorBrush x:Key="Backgroundverticalsuccess" Color="#5cb85c"/>
+    <LinearGradientBrush x:Key="Borderverticalsuccess" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#5cb85c" Offset="0.1"/>
+        <GradientStop Color="White" Offset=".9"/>
+    </LinearGradientBrush>
+
+    <!--Style For Success Slider Vertical Rect End Here-->
+
+
+
+
+
+
+</ResourceDictionary>

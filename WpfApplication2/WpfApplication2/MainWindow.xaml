@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="525">
+    <Grid>
+        <Slider HorizontalAlignment="Left" Margin="87,96,0,0" VerticalAlignment="Top" Width="342" />
+        <Slider HorizontalAlignment="Left" Margin="87,126,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderPrimary}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,156,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderDanger}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,186,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderSuccess}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,216,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderHorizontalBasic}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,246,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderHorizontalPrimary}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,276,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderHorizontalDanger}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,306,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderHorizontalSuccess}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,336,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderVerticalBasic}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,376,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderVerticalPrimary}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,416,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderVerticalDanger}"/>
+        <Slider HorizontalAlignment="Left" Margin="87,456,0,0" VerticalAlignment="Top" Width="342" Style="{StaticResource sliderVerticalSuccess}"/>
+    </Grid>
+</Window>
