@@ -1,0 +1,522 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Class="custom_template.library">
+    <!-- Style for Linear Gradient Progress Bar Start Here-->
+    
+    <Style TargetType="Rectangle" x:Key="styleShadowTop">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5">
+                    <GradientStop Color="#dddddd" Offset="0.25"></GradientStop>
+                    <GradientStop Color="#F5F5F5" Offset="0.75"></GradientStop>
+                 </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="Rectangle" x:Key="styleShadowTopColor">
+        <!--Event Of Mouse Hover Start Here-->
+        <EventSetter Event="Rectangle.MouseEnter" Handler="mouseenterProgressbar"></EventSetter>
+        <!--Event Of Mouse Hover End Here-->
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5">
+                    <GradientStop Color="#76b9f4" Offset="0.25"></GradientStop>
+                    <GradientStop Color="{Binding Path=Fill,RelativeSource={RelativeSource Self} }" Offset="0.75"></GradientStop>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!-- Style for Linear Gradient Progress Bar Ends Here-->
+   
+    <!-- Style for Progress Bar Start Here -->
+    <Style  x:Key="progressbarDefault">
+      <Setter Property="Control.Template">
+       <Setter.Value>
+        <ControlTemplate TargetType="Control" >
+            <Grid Height="{TemplateBinding Height}" Width="{TemplateBinding Width}">
+                        <Rectangle x:Name="a" HorizontalAlignment="Left" Height="20px"   VerticalAlignment="Top" Width="{TemplateBinding Width}"  Stroke="#ddd"  ClipToBounds="True" RadiusX="3" RadiusY="3" Style="{StaticResource styleShadowTop}" ></Rectangle>
+                        <Rectangle  Height="20" Width="100"   HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="3" RadiusY="3" Style="{StaticResource styleShadowTopColor}" Fill="{TemplateBinding Background}"></Rectangle>
+             </Grid>
+        </ControlTemplate>
+       </Setter.Value>
+      </Setter>
+    </Style>
+    <!-- Style For Progress Bar Ends Here-->
+   
+    
+    
+    <!--Style For ToolBar Start Here -->
+    <Style TargetType="Button" x:Key="buttonToolbar">
+        <Setter Property="Width" Value="75" />
+        <Setter Property="Foreground" Value="#CCCCCC"/>
+        <Setter Property="Height" Value="{Binding Path=Height,RelativeSource={RelativeSource AncestorType=ToolBar}}"/>
+        <Setter Property="Background" Value="{Binding Path=Background,RelativeSource={RelativeSource AncestorType=ToolBar}}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <EventSetter Event="Button.PreviewMouseLeftButtonDown" Handler="previewmouseleftbuttondownToolbar"/>
+        <EventSetter Event="Button.PreviewMouseLeftButtonUp" Handler="previewmouseleftbuttonupToolbar"/>
+        <EventSetter Event="Button.MouseEnter" Handler="mouseenterToolbar"/>
+        <EventSetter Event="Button.MouseLeave" Handler="mouseleaveToolbar"/>
+    </Style>
+    <Style TargetType="ToolTip" x:Key="tooltipToolbar">
+        <Setter Property="Background" Value="#222222"/>
+    </Style>
+
+    <Style TargetType="Separator" x:Key="sepratorToolbar">
+        <Setter Property="Background" Value="{Binding Path=Background,RelativeSource={RelativeSource AncestorType=ToolBar}}"/>
+    </Style>
+    <Style TargetType="ToolBar" x:Key="defaultToolbar">
+        <Setter Property="Background" Value="{Binding Path=Background,RelativeSource={RelativeSource AncestorType=ToolBar}}"/>
+        <Setter Property="Foreground" Value="#aaaaaa"/>
+        <Setter Property="Height" Value="30"/>
+    </Style>
+    <!--Style For ToolBar End Here-->
+    
+    <!--ToolBar Example-->
+    <!-- <Window.Resources>
+        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.page.delete.png"/>
+        <BitmapImage x:Key="ImageSource2" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.clipboard.paper.png"/>
+        <BitmapImage x:Key="ImageSource3" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.folder.open.png"/>
+        <BitmapImage x:Key="ImageSource4" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.save.png"/>
+        <BitmapImage x:Key="ImageSource5" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.close.png"/>
+        <BitmapImage x:Key="ImageSource6" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.text.bold.png"/>
+        <BitmapImage x:Key="ImageSource7" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.text.italic.png"/>
+        <BitmapImage x:Key="ImageSource8" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.page.copy.png"/>
+        <BitmapImage x:Key="ImageSource9" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.clipboard.paste.png"/>
+        <BitmapImage x:Key="ImageSource10" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.draw.brush.reflection.png"/>
+        <BitmapImage x:Key="ImageSource11" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.magnify.minus.png"/>
+        <BitmapImage x:Key="ImageSource12" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.magnify.add.png"/>
+        <BitmapImage x:Key="ImageSource13" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.list.png"/>
+        <BitmapImage x:Key="ImageSource14" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.cursor.hand.png"/>
+        <BitmapImage x:Key="ImageSource15" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.cursor.default.png"/>
+    </Window.Resources>
+
+    <Grid Width="{Binding Path=Width,RelativeSource={RelativeSource Self}}">
+        <Canvas Width="{Binding Path=Width,RelativeSource={RelativeSource Self}}">
+            <ToolBar Height="35" Width="{Binding Path=Width,RelativeSource={RelativeSource AncestorType=Window}}" Style="{StaticResource defaultToolbar}" BorderBrush="#222222">
+                <Button   Style="{StaticResource buttonToolbar}" ToolTip="New">
+                    <Image Source="{DynamicResource ImageSource2}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button Style="{StaticResource buttonToolbar}" ToolTip="Open">
+                    <Image Source="{DynamicResource ImageSource3}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Save">
+                    <Image Source="{DynamicResource ImageSource4}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}" ToolTip="Exit">
+                    <Image Source="{DynamicResource ImageSource5}" />
+                </Button>
+
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Bold">
+                    <Image Source="{DynamicResource ImageSource6}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Italic">
+                    <Image Source="{DynamicResource ImageSource7}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Cut">
+                    <Image Source="{DynamicResource ImageSource1}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Copy">
+                    <Image Source="{DynamicResource ImageSource8}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Paste">
+                    <Image Source="{DynamicResource ImageSource9}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Color">
+                    <Image Source="{DynamicResource ImageSource10}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Select">
+                    <Image Source="{DynamicResource ImageSource15}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="Hand">
+                    <Image Source="{DynamicResource ImageSource14}"/>
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="List">
+                    <Image Source="{DynamicResource ImageSource13}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="ZoomIn">
+                    <Image Source="{DynamicResource ImageSource12}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+                <Button  Style="{StaticResource buttonToolbar}"  ToolTip="ZoomOut">
+                    <Image Source="{DynamicResource ImageSource11}" />
+                </Button>
+                <Separator Style="{StaticResource sepratorToolbar}"/>
+
+
+            </ToolBar>
+        </Canvas>
+    </Grid>-->
+
+
+    <!-- Style For TextBox Start Here-->
+    <Style x:Key="textbox" TargetType="{x:Type TextBox}">
+
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TextBox}">
+                    <Grid Width="{TemplateBinding Width}" Height="33">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" Height="{TemplateBinding Height}"  Width="{TemplateBinding Width}" CornerRadius="3" Background="White" x:Name="border"  >
+                            <Grid>
+                                <TextBox Text="{TemplateBinding Text}" x:Name="textSource" Background="Transparent" Panel.ZIndex="2"  Height="{TemplateBinding Height}"  Width="{TemplateBinding Width}" BorderBrush="Transparent" BorderThickness="0" FontSize="15"  FontFamily="Segoe UI " Foreground="Gray" VerticalAlignment="Center" Focusable="True" />
+
+                                <TextBox Text="{TemplateBinding Tag}" Background="Transparent" Panel.ZIndex="1" Height="{TemplateBinding Height}"  Width="{TemplateBinding Width}" BorderBrush="Transparent" BorderThickness="0" FontSize="14"  FontFamily="Segoe UI" VerticalAlignment="Center">
+                                    <TextBox.Style>
+                                        <Style TargetType="{x:Type TextBox}">
+                                            <Setter Property="Foreground" Value="Transparent"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=Text, Source={x:Reference textSource}}" Value="">
+                                                    <Setter Property="Foreground" Value="DarkGray"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBox.Style>
+                                </TextBox>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Style For TextBox  End Here-->
+
+
+    <!--Style For TextBox Primary Start Here-->
+    <Style TargetType="TextBox" BasedOn="{StaticResource textbox}" x:Key="textboxPrimary">
+        <Setter Property="BorderBrush" Value="#428bca"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusPrimary" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+
+    </Style>
+    <!--Style For TextBox Primary End Here-->
+
+
+    <!-- Style For TextBox Of Success Start Here-->
+    <Style TargetType="TextBox" BasedOn="{StaticResource textbox}" x:Key="textboxSuccess">
+        <Setter Property="BorderBrush" Value="#5cb85c"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusSuccess" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+    </Style>
+    <!--Style For TextBox Success End Here-->
+
+
+
+    <!--Style For TextBox Danger Start Here-->
+    <Style TargetType="TextBox" BasedOn="{StaticResource textbox}" x:Key="textboxDanger">
+        <Setter Property="BorderBrush" Value="#d9534f"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusDanger" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+    </Style>
+    <!--Style For TextBox Danger End Here-->
+
+
+    <!--Style For TextBox Warning Start Here-->
+    <Style TargetType="TextBox" BasedOn="{StaticResource textbox}" x:Key="textboxWarning">
+        <Setter Property="BorderBrush" Value="#f0ad4e"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusWarning" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+    </Style>
+    <!--Style For TextBox Warning End Here-->
+
+
+    <!--Style For TextBox Default Start Here-->
+    <Style TargetType="TextBox" BasedOn="{StaticResource textbox}" x:Key="textboxDefault">
+        <Setter Property="BorderBrush" Value="#555"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusDefault" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+    </Style>
+    <!--Style For TextBox Default End Here-->
+
+    <!--TextBox Example-->
+    <!--  <TextBox Style="{StaticResource textboxPrimary}" Tag="Type Me"/>
+        <TextBox Style="{StaticResource textboxWarning}" Tag="Type Me"/>
+        <TextBox Style="{StaticResource textboxSuccess}" Tag="Type Me" />
+        <TextBox Style="{StaticResource textboxDanger}" Tag="Type Me"/>
+        <TextBox Style="{StaticResource textboxDefault}" Tag="Type Me" />-->
+    
+    
+    <!--Label Start Here-->
+    <!--Style for Label Start Here-->
+    <Style TargetType="Label" x:Key="Label">
+        <Setter Property="Width" Value="90" ></Setter>
+        <Setter Property="Height" Value="28"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Grid>
+                        <Border CornerRadius="3" Background="{TemplateBinding Background}" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" >
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" >
+                                <TextBlock.Foreground>
+                                    White
+                                </TextBlock.Foreground>
+                            </ContentPresenter>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <EventSetter Event="MouseEnter" Handler="mouseenterLabel"></EventSetter>
+        <EventSetter Event="MouseLeave" Handler="mouseleaveLabel"></EventSetter>
+    </Style>
+    <!--Style For Label Ends Here-->
+
+
+
+    <!--Style For Label Primary Start Here-->
+    <Style TargetType="Label" BasedOn="{StaticResource Label}" x:Key="primaryLabel">
+        <Setter Property="Background" Value="#428bca"></Setter>
+        <Setter Property="Content" Value="Primary Label"></Setter>
+    </Style>
+    <!--Style For Label Primary End Here-->
+
+
+    <!--Style For Label Success Start Here-->
+    <Style TargetType="Label" BasedOn="{StaticResource Label}" x:Key="successLabel">
+        <Setter Property="Background" Value="#5cb85c"></Setter>
+        <Setter Property="Content" Value="Success Label"></Setter>
+    </Style>
+    <!--Style For Label Success End Here-->
+
+
+    <!--Style For Label Warning Start Here-->
+    <Style TargetType="Label" BasedOn="{StaticResource Label}" x:Key="warningLabel">
+        <Setter Property="Background" Value="#f0ad4e"></Setter>
+        <Setter Property="Content" Value="Warning Label"></Setter>
+    </Style>
+    <!--Style For Label Warning End Here-->
+
+
+    <!--Style For Label Danger Start Here-->
+    <Style TargetType="Label" BasedOn="{StaticResource Label}" x:Key="dangerLabel">
+        <Setter Property="Background" Value="#d9534f"></Setter>
+        <Setter Property="Content" Value="Danger Label"></Setter>
+    </Style>
+    <!--Style For Label Danger End Here-->
+
+
+    <!--Style For Label Default Start Here-->
+    <Style TargetType="Label" BasedOn="{StaticResource Label}" x:Key="defaultLabel">
+        <Setter Property="Background" Value="#999"></Setter>
+        <Setter Property="Content" Value="Default Label"></Setter>
+    </Style>
+    <!--Style For Label Default End Here-->
+
+
+    <!--Style For Label Basic Start Here-->
+    <Style TargetType="Label" BasedOn="{StaticResource Label}">
+        <Setter Property="Background" Value="Black"></Setter>
+        <Setter Property="Content" Value="Label"></Setter>
+
+    </Style>
+    <!--Style For Label Basic End Here-->
+    
+    <!--Label Examples-->
+    <!-- <Label Style="{StaticResource primaryLabel}"/>
+        <Label Style="{StaticResource dangerLabel}" />
+        <Label Style="{StaticResource warningLabel}" />
+        <Label Style="{StaticResource successLabel}" />
+        <Label Style="{StaticResource defaultLabel}" />
+        <Label />-->
+    <!--Label End Here-->
+    
+    
+    <!--Alert Box Start Here-->
+    <!--Style For AlertBox Success Start Here-->
+    <Style TargetType="Label"  x:Key="successAlertbox">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Border CornerRadius="3" Background="#dff0d8" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" BorderBrush="#d6e9c6" BorderThickness="1" >
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" >
+                            <TextBlock.Foreground>
+                                #468847
+                            </TextBlock.Foreground>
+                            <TextBlock.FontSize>
+                                15
+                            </TextBlock.FontSize>
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Style For AlertBox Success End Here-->
+
+
+    <!--Style For AlertBox Warning Start Here-->
+    <Style TargetType="Label"   x:Key="warningAlertbox">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Border CornerRadius="3" Background="#fcf8e3" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" BorderBrush="#faebcc"  BorderThickness="1">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" >
+                            <TextBlock.Foreground>
+                                #c09853
+                            </TextBlock.Foreground>
+                            <TextBlock.FontSize>
+                                15
+                            </TextBlock.FontSize>
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Style For AlertBox Warning End Here-->
+
+
+    <!--Style For AlertBox Danger Start Here-->
+    <Style TargetType="Label" x:Key="dangerAlertbox">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label" >
+                    <Border CornerRadius="3" Background="#f2dede" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" BorderBrush="#ebccd1"  BorderThickness="1">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" >
+                            <TextBlock.Foreground>
+                                #b94a48
+                            </TextBlock.Foreground>
+                            <TextBlock.FontSize>
+                                15
+                            </TextBlock.FontSize>
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Style For AlertBox Danger End Here-->
+
+
+    <!--Style For InfoAlertBox Info Start Here-->
+    <Style TargetType="Label" x:Key="infoAlertbox">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label" >
+                    <Border CornerRadius="3" Background="#d9edf7" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" BorderBrush="#bce8ff"  BorderThickness="1">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" >
+                            <TextBlock.Foreground>
+                                #3a87ad
+                            </TextBlock.Foreground>
+                            <TextBlock.FontSize>
+                                15
+                            </TextBlock.FontSize>
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Style For InfoAlertBox Info End Here-->
+    <!--Alert Box Examples-->
+    <!--<Label Style="{StaticResource successAlertbox}" Content="This Is a Success Alert Box"></Label>
+        <Label Style="{StaticResource warningAlertbox}" Content="This Is a Warning Alert Box" Height='50' Width="500" />
+        <Label Style="{StaticResource dangerAlertbox}" Content="This Is a Danger Alert Box" Height="50" Width="500"/>
+        <Label Style="{StaticResource infoAlertbox}" Content="This Is a Info Alert Box" Height="50" Width="500" />-->
+    <!--ALert Box End Here-->
+    
+    
+    
+    <!--Badge Start Here-->
+    <!--Style for Badge Start Here-->
+    <Style TargetType="Label" x:Key="badge">
+        <EventSetter Event="MouseEnter" Handler="mouseenterBadge"></EventSetter>
+        <EventSetter Event="MouseLeave" Handler="mouseleaveBadge"></EventSetter>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label" >
+                    <Border CornerRadius="10"  Background="{TemplateBinding Background}"  Height="30" Width="Auto">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" >
+                            <TextBlock.Foreground>
+                                White
+                            </TextBlock.Foreground>
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Style For Badge Ends Here-->
+
+
+
+    <!--Style For Badge Primary Start Here-->
+    <Style TargetType="Label" x:Key="primaryBadge" BasedOn="{StaticResource badge}">
+        <Setter Property="Background" Value="#428bca"/>
+    </Style>
+    <!--Style For Badge Primary End Here-->
+
+
+    <!--Style For Badge Success Start Here-->
+    <Style TargetType="Label" x:Key="successBadge" BasedOn="{StaticResource badge}">
+        <Setter Property="Background" Value="#5cb85c"/>
+    </Style>
+    <!--Style For Badge Success End Here-->
+
+
+    <!--Style For Badge Info Start Here-->
+    <Style TargetType="Label" x:Key="infoBadge" BasedOn="{StaticResource badge}">
+        <Setter Property="Background" Value="#3a87ad"/>
+    </Style>
+    <!--Style For Badge Info End Here-->
+
+
+    <!--Style For Badge Warning Start Here-->
+    <Style TargetType="Label" x:Key="warningBadge" BasedOn="{StaticResource badge}">
+        <Setter Property="Background" Value="#f0ad4e"/>
+    </Style>
+    <!--Style For Badge Warning End Here-->
+
+
+    <!--Style For Badge Danger Start Here-->
+    <Style TargetType="Label" x:Key="dangerBadge" BasedOn="{StaticResource badge}">
+        <Setter Property="Background" Value="#d9534f"/>
+    </Style>
+    <!--Style For Badge Danger End Here-->
+
+
+    <!--Style For Badge Default Start Here-->
+    <Style TargetType="Label" x:Key="defaultBadge" BasedOn="{StaticResource badge}">
+        <Setter Property="Background" Value="#999"/>
+    </Style>
+    <!--Style For Badge Default End Here-->
+    <!--Example Of Badge-->
+    <!--<Label Style="{StaticResource primaryBadge}" Content="2"  Margin="276,181,175,96" />
+        <Label Style="{StaticResource successBadge}" Content="23" Margin="133,30,354,260" />
+        <Label Content="100" Style="{StaticResource dangerBadge}"   />
+        <Label Style="{StaticResource warningBadge}" Content="84" Margin="426,66,61,224"/>
+        <Label Style="{StaticResource infoBadge}" Content="125" Margin="129,112,350,175" />
+        <Label Style="{StaticResource defaultBadge}" Content="0" Margin="45,112,434,175"  />-->
+    <!--Badge End Here-->
+   </ResourceDictionary>

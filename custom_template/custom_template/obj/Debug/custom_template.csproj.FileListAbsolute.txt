@@ -1,0 +1,16 @@
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\bin\Debug\custom_template.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\custom_template.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\library.baml
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\App.baml
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\library.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\custom_template_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\custom_template.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\custom_template.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\custom_template.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\bin\Debug\custom_template.exe
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\bin\Debug\custom_template.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\custom_template.exe
+c:\users\samsung\documents\visual studio 2012\Projects\custom_template\custom_template\obj\Debug\custom_template.pdb
