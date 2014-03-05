@@ -1,0 +1,14 @@
+﻿<Window x:Class="Badge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Style="{StaticResource primaryBadge}" Content="2"  Margin="276,181,175,96" />
+        <Label Style="{StaticResource successBadge}" Content="23" Margin="133,30,354,260" />
+        <Label Content="100" Style="{StaticResource dangerBadge}"   />
+        <Label Style="{StaticResource warningBadge}" Content="84" Margin="426,66,61,224"/>
+        <Label Style="{StaticResource infoBadge}" Content="125" Margin="129,112,350,175" />
+        <Label Style="{StaticResource defaultBadge}" Content="0" Margin="45,112,434,175"  />
+        
+    </Grid>
+</Window>

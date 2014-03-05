@@ -1,0 +1,15 @@
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\bin\Debug\well.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\bin\Debug\well.exe
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\bin\Debug\well.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\well.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\Dictionary1.baml
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\App.baml
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\well_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\well.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\well.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\well.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\well.exe
+c:\users\samsung\documents\visual studio 2012\Projects\well\well\obj\Debug\well.pdb

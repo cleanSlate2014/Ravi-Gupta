@@ -1,0 +1,32 @@
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\bin\Debug\label.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\bin\Debug\label.exe
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\bin\Debug\label.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\label.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\Dictionary1.baml
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\App.baml
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\Dictionary1.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\label_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\label.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\label.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\label.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\label.exe
+c:\users\samsung\documents\visual studio 2012\Projects\label\label\obj\Debug\label.pdb
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\bin\Debug\label.exe.config
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.exe
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.pdb
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\bin\Debug\label.exe
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\bin\Debug\label.pdb
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.csprojResolveAssemblyReference.cache
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\Dictionary1.baml
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\MainWindow.baml
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\App.baml
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\Dictionary1.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\MainWindow.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\App.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label_MarkupCompile.cache
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.g.resources
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.Properties.Resources.resources
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.csproj.GenerateResource.Cache

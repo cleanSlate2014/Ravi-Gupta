@@ -1,0 +1,15 @@
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\bin\Debug\ScrollBar.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\bin\Debug\ScrollBar.exe
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\bin\Debug\ScrollBar.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\ScrollBar.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\ScrollBar_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\ScrollBar.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\ScrollBar.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\ScrollBar.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\ScrollBar.exe
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\ScrollBar.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\Dictionary1.baml
+c:\users\samsung\documents\visual studio 2012\Projects\ScrollBar\ScrollBar\obj\Debug\App.baml

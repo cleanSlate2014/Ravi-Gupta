@@ -1,0 +1,15 @@
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\bin\Debug\panel.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\bin\Debug\panel.exe
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\bin\Debug\panel.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\panel.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\Dictionary1.baml
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\App.baml
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\panel_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\panel.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\panel.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\panel.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\panel.exe
+c:\users\samsung\documents\visual studio 2012\Projects\panel\panel\obj\Debug\panel.pdb

@@ -1,0 +1,19 @@
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\bin\Debug\demptesting.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\bin\Debug\demptesting.exe
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\bin\Debug\demptesting.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\demptesting.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\Dictionary1.baml
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\App.baml
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\Dictionary1.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\demptesting_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\demptesting.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\demptesting.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\demptesting.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\demptesting.exe
+c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\obj\Debug\demptesting.pdb
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\demptesting\demptesting\bin\Debug\demptesting.exe.config
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\demptesting\demptesting\obj\Debug\demptesting.exe
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\demptesting\demptesting\obj\Debug\demptesting.pdb

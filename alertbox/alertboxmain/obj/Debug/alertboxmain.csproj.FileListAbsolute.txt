@@ -1,0 +1,32 @@
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\bin\Debug\alertboxmain.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\alertboxmain.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\Dictionary1.baml
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\App.baml
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\Dictionary1.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\alertboxmain_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\alertboxmain.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\alertboxmain.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\alertboxmain.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\bin\Debug\alertboxmain.exe
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\bin\Debug\alertboxmain.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\alertboxmain.exe
+c:\users\samsung\documents\visual studio 2012\Projects\alertboxmain\alertboxmain\obj\Debug\alertboxmain.pdb
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\bin\Debug\alertboxmain.exe.config
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.exe
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.pdb
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\bin\Debug\alertboxmain.exe
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\bin\Debug\alertboxmain.pdb
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.csprojResolveAssemblyReference.cache
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\Dictionary1.baml
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\MainWindow.baml
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\App.baml
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\Dictionary1.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\MainWindow.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\App.g.cs
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain_MarkupCompile.cache
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.g.resources
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.Properties.Resources.resources
+C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.csproj.GenerateResource.Cache

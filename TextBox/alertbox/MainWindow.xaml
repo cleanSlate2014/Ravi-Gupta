@@ -1,0 +1,18 @@
+﻿<Window x:Class="alertbox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="525">
+
+
+    <Grid>
+
+        <TextBox Style="{StaticResource textboxPrimary}" Tag="Type Me" Margin="64,74,68,196"/>
+        <TextBox Style="{StaticResource textboxWarning}" Tag="Type Me" Margin="64,10,68,260"/>
+        <TextBox Style="{StaticResource textboxSuccess}" Tag="Type Me" Margin="64,195,68,75"/>
+        <TextBox Style="{StaticResource textboxDanger}" Tag="Type Me" Margin="64,129,68,141"/>
+        <TextBox Style="{StaticResource textboxDefault}" Tag="Type Me" Margin="64,250,68,20" />
+       
+    </Grid>
+
+
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="label.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="525">
+    <Grid>
+        <Label    Margin="185,33,217,402"  Style="{StaticResource primaryLabel}" Content="Label Primary"/>
+        <Label Style="{StaticResource dangerLabel}"  Margin="185,85,217,354"/>
+        <Label Style="{StaticResource warningLabel}"  Margin="185,256,217,182" />
+        <Label Style="{StaticResource successLabel}"  Margin="185,142,217,294" />
+        <Label Style="{StaticResource defaultLabel}"  RenderTransformOrigin="0.485,1.505" Margin="198,206,229,236" />
+        <Label  HorizontalAlignment="Left" Margin="198,315,0,0" VerticalAlignment="Top"  />
+
+
+    </Grid>
+</Window>

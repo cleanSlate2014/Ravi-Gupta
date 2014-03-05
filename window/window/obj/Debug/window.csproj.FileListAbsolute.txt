@@ -1,0 +1,16 @@
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\bin\Debug\window.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\bin\Debug\window.exe
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\bin\Debug\window.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\window.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\window_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\window.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\window.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\window.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\window.exe
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\window.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\Dictionary1.baml
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\App.baml
+c:\users\samsung\documents\visual studio 2012\Projects\window\window\obj\Debug\Dictionary1.g.cs

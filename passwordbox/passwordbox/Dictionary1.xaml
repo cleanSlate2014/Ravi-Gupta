@@ -1,0 +1,84 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Class="passwordbox.Dictionary1">
+    <!-- Style For TextBox Start Here-->
+    <Style x:Key="passwordbox" TargetType="{x:Type PasswordBox}">
+
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type PasswordBox}">
+                    <Grid Width="{TemplateBinding Width}" Height="33">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" Height="{TemplateBinding Height}"  Width="{TemplateBinding Width}" CornerRadius="3" Background="White" x:Name="border"  >
+                            <Grid>
+                                <PasswordBox  x:Name="textSource" Background="Transparent" Panel.ZIndex="2"  Height="{TemplateBinding Height}"  Width="{TemplateBinding Width}" BorderBrush="Transparent" BorderThickness="0" FontSize="15"  FontFamily="Segoe UI " Foreground="Gray" VerticalAlignment="Center" Focusable="True" />
+
+                                <TextBox Text="{TemplateBinding Tag}" Background="Transparent" Panel.ZIndex="1" Height="{TemplateBinding Height}"  Width="{TemplateBinding Width}" BorderBrush="Transparent" BorderThickness="0" FontSize="14"  FontFamily="Segoe UI" VerticalAlignment="Center">
+                                    <TextBox.Style>
+                                        <Style TargetType="{x:Type TextBox}">
+                                            <Setter Property="Foreground" Value="Transparent"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=Text, Source={x:Reference textSource}}" Value="">
+                                                    <Setter Property="Foreground" Value="DarkGray"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBox.Style>
+                                </TextBox>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Style For TextBox  End Here-->
+
+
+    <!--Style For TextBox Primary Start Here-->
+    <Style TargetType="PasswordBox" BasedOn="{StaticResource passwordbox}" x:Key="passwordboxPrimary">
+        <Setter Property="BorderBrush" Value="#428bca"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusPrimary" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+
+    </Style>
+    <!--Style For TextBox Primary End Here-->
+
+
+    <!-- Style For TextBox Of Success Start Here-->
+    <Style TargetType="PasswordBox" BasedOn="{StaticResource passwordbox}" x:Key="passwordboxSuccess">
+        <Setter Property="BorderBrush" Value="#5cb85c"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusSuccess" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+    </Style>
+    <!--Style For TextBox Success End Here-->
+
+
+
+    <!--Style For TextBox Danger Start Here-->
+    <Style TargetType="PasswordBox" BasedOn="{StaticResource passwordbox}" x:Key="passwordboxDanger">
+        <Setter Property="BorderBrush" Value="#d9534f"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusDanger" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+    </Style>
+    <!--Style For TextBox Danger End Here-->
+
+
+    <!--Style For TextBox Warning Start Here-->
+    <Style TargetType="PasswordBox" BasedOn="{StaticResource passwordbox}" x:Key="passwordboxWarning">
+        <Setter Property="BorderBrush" Value="#f0ad4e"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusWarning" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+    </Style>
+    <!--Style For TextBox Warning End Here-->
+
+
+    <!--Style For TextBox Default Start Here-->
+    <Style TargetType="PasswordBox" BasedOn="{StaticResource passwordbox}" x:Key="passwordboxDefault">
+        <Setter Property="BorderBrush" Value="#555"/>
+        <EventSetter Event="GotKeyboardFocus" Handler="gotFocusDefault" />
+        <EventSetter Event="LostKeyboardFocus" Handler="lostFocus" />
+    </Style>
+    <!--Style For TextBox Default End Here-->
+
+</ResourceDictionary>

@@ -1,0 +1,11 @@
+﻿<Window x:Class="alertboxmain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Style="{StaticResource successAlertbox}" Content="This Is a Success Alert Box" Margin="10,114,7,156" ></Label>
+        <Label Style="{StaticResource warningAlertbox}" Content="This Is a Warning Alert Box" Height='50' Width="500" Margin="7,25,10,238" />
+        <Label Style="{StaticResource dangerAlertbox}" Content="This Is a Danger Alert Box" Height="50" Width="500" Margin="10,189,7,74" />
+        <Label Style="{StaticResource infoAlertbox}" Content="This Is a Info Alert Box" Height="50" Width="500" Margin="10,260,7,10" />
+    </Grid>
+</Window>

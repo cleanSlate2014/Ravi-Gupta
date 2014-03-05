@@ -1,0 +1,21 @@
+﻿<Window x:Class="ScrollBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ScrollBar Margin="178,146,134,149"
+                   Orientation="Horizontal"
+                   VerticalAlignment="Stretch"
+                   Style="{DynamicResource ResourceKey=styleScrollBar}" Height="Auto" RenderTransformOrigin="0.5,0.5">
+            <ScrollBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.35"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ScrollBar.RenderTransform>
+        </ScrollBar>
+
+    </Grid>
+</Window>
