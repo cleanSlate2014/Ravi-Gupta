@@ -1,0 +1,8 @@
+﻿<Window x:Class="modal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Style="{StaticResource buttonSuccess}" Width="200" Content="Click to generate a Modal" Click="buttonClick"></Button>
+    </Grid>
+</Window>

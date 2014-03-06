@@ -1,0 +1,10 @@
+﻿<Window x:Class="messagebox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        Title="MainWindow" WindowState="Maximized">
+    <Grid>
+        <Button Width="100" Click="clickme" Style="{StaticResource buttonPrimary}" Content="ClickMe" Margin="406,125,254,-125" x:Name="btn"></Button>
+      
+    </Grid>
+</Window>
