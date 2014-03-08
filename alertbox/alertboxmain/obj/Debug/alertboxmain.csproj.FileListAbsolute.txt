@@ -30,3 +30,6 @@ C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertbo
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.g.resources
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.Properties.Resources.resources
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\alertboxmain\alertboxmain\obj\Debug\alertboxmain.csproj.GenerateResource.Cache
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\alertbox\alertboxmain\bin\Debug\alertboxmain.exe.config
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\alertbox\alertboxmain\obj\Debug\alertboxmain.exe
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\alertbox\alertboxmain\obj\Debug\alertboxmain.pdb

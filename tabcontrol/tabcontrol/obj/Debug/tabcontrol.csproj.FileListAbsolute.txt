@@ -1,0 +1,16 @@
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\bin\Debug\tabcontrol.exe.config
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\bin\Debug\tabcontrol.exe
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\bin\Debug\tabcontrol.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\tabcontrol.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\Dictionary1.baml
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\MainWindow.baml
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\App.baml
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\MainWindow.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\App.g.cs
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\tabcontrol_MarkupCompile.cache
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\tabcontrol.g.resources
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\tabcontrol.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\tabcontrol.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\tabcontrol.exe
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\tabcontrol.pdb
+c:\users\samsung\documents\visual studio 2012\Projects\tabcontrol\tabcontrol\obj\Debug\Dictionary1.g.cs

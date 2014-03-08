@@ -17,3 +17,6 @@ c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\o
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\demptesting\demptesting\bin\Debug\demptesting.exe.config
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\demptesting\demptesting\obj\Debug\demptesting.exe
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\demptesting\demptesting\obj\Debug\demptesting.pdb
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\ToolBox\demptesting\bin\Debug\demptesting.exe.config
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\ToolBox\demptesting\obj\Debug\demptesting.exe
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\ToolBox\demptesting\obj\Debug\demptesting.pdb

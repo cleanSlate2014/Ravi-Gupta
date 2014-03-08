@@ -12,3 +12,6 @@ C:\Users\Samsung\Documents\Visual Studio 2012\Projects\WpfApplication2\WpfApplic
 C:\Users\Samsung\Documents\Visual Studio 2012\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
 C:\Users\Samsung\Documents\Visual Studio 2012\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
 C:\Users\Samsung\Documents\Visual Studio 2012\Projects\WpfApplication2\WpfApplication2\obj\Debug\Slider.csproj.GenerateResource.Cache
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\Slider\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\Slider\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\Samsung\Documents\Visual Studio 2012\Projects\Slider\WpfApplication2\obj\Debug\WpfApplication2.pdb
