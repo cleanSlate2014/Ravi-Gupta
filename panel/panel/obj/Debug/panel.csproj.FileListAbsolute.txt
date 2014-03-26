@@ -28,3 +28,6 @@ C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\panel\panel\obj\Debug\
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\panel\panel\obj\Debug\panel.g.resources
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\panel\panel\obj\Debug\panel.Properties.Resources.resources
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\panel\panel\obj\Debug\panel.csproj.GenerateResource.Cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\panel\panel\obj\Debug\Dictionary1.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\panel\panel\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\panel\panel\obj\Debug\panel_MarkupCompile.lref

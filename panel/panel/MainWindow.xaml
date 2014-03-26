@@ -1,9 +1,20 @@
 ﻿<Window x:Class="panel.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:panel"
         Title="MainWindow"  WindowState="Maximized" Width="1360">
     <Grid >
-        <Grid Style="{StaticResource panel}" Margin="38,33,814,382">
+        <local:CustomPanel Margin="38,151,814,261">
+            <local:Title Type="headingPanelDanger">
+                This Is A Title
+            </local:Title>
+            <local:Body  >
+                <Grid>
+                    <TextBlock FontSize="14">HEy THis is a title</TextBlock>
+                </Grid>
+            </local:Body>
+        </local:CustomPanel>
+        <Grid Style="{StaticResource panel}"  Margin="38,33,814,382">
         <Label Style="{StaticResource headingPanelDanger}" Content="This Is a Heading" Margin="0,0,0,50"/>
         <Label Style="{StaticResource textPanel}"  Content="This Is A Content" Margin="0,40,0,0"></Label>
         </Grid>
@@ -15,9 +26,9 @@
             <Label Style="{StaticResource headingPanelInfo}" Content="This Is a Heading" Margin="0,0,0,50"/>
             <Label Style="{StaticResource textPanel}"  Content="This Is A Content" Margin="0,40,0,0"></Label>
         </Grid>
-        <Grid Style="{StaticResource panel}" Margin="38,223,814,190">
-            <Label Style="{StaticResource headingPanelWarning}" Content="This Is a Heading" Margin="0,0,0,50"/>
-            <Label Style="{StaticResource textPanel}"  Content="This Is A Content" Margin="0,40,0,0"></Label>
+        <Grid Style="{StaticResource panel}" Margin="38,272,814,140">
+            <Label Style="{StaticResource headingPanelWarning}" Content="This Is a Heading" Margin="0,1,0,51"/>
+            <Label Style="{StaticResource textPanel}"  Content="This Is A Content" Margin="0,41,0,1"></Label>
         </Grid>
         <Grid Style="{StaticResource panel}" Margin="384,389,468,24">
             <Label Style="{StaticResource headingPanelDefault}" Content="This Is a Heading" Margin="0,0,0,50"/>

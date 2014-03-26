@@ -1,5 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Class="panel.Dictionary1">
 
 
     <!--Style For Grid Container Start Here-->
@@ -30,6 +31,8 @@
             </Setter.Value>
         </Setter>
     </Style>
+
+   
     <!--Style For Basic Default End Here-->
     
     
@@ -93,10 +96,34 @@
         </Setter>
     </Style>
     <!--Style For Text Default End Here-->
-    
-    
-   
 
-   
-    
+
+    <!-- Style For Text Panel Border Start Here -->
+    <Style TargetType="Border" x:Key="textPanelBorder">
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Margin" Value="0,40,0,0" />
+        <Setter Property="Padding" Value="8" />
+        <Setter Property="Height" Value="50"/>
+
+        <Setter Property="Height" Value="{Binding Path=Height, RelativeSource={RelativeSource TemplatedParent}}"/>
+        <Setter Property="Width" Value="{Binding Path=Width, RelativeSource={RelativeSource TemplatedParent}}"/>
+        <Setter Property="BorderBrush" Value="#ccc"/>
+        <Setter Property="CornerRadius" Value="0,0,4,4"/>
+        <Setter Property="BorderThickness" Value="1"/>
+    </Style>
+    <!-- Style For Text Panel Border End Here -->
+
+
+
+
+
+
+
+
+
+
 </ResourceDictionary>
+
+
+
+
