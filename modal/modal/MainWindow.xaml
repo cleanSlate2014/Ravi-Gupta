@@ -3,6 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Style="{StaticResource buttonSuccess}" Width="200" Content="Click to generate a Modal" Click="buttonClick"></Button>
+        <Button Style="{StaticResource buttonSuccess}" Width="200" Content="Click to generate a Modal" Click="buttonClick" Margin="153,127,164,156"></Button>
     </Grid>
 </Window>

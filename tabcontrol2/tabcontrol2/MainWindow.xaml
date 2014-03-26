@@ -1,0 +1,20 @@
+﻿<Window x:Class="tabcontrol2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"  WindowState="Maximized">
+    <Grid>
+        <TabControl>
+            <TabItem Header="First Tab" Background="Red">
+                
+            </TabItem>
+            <TabItem Header="Second Tab" Background="#428bca"/>
+            <TabItem Header="Third Tab" Background="#5cb85c"/>
+            <TabItem Header="Fourth Tab" Background=" #f0ad4e"/>
+            <TabItem Header="Fifth Tab" Background="#d9534f" />
+            <TabItem Header="Sixth Tab" Background="#5bc0de"/>
+            <TabItem Header="Seventh Tab" Background="#5cb85c" />
+            <TabItem Header="Eight Tab" Background="#d9534f"/>
+        </TabControl>
+        
+    </Grid>
+</Window>

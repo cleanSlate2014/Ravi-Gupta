@@ -1,0 +1,11 @@
+﻿<Window x:Class="busyIndicator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Popup PopupAnimation="Fade" Placement="Center" StaysOpen="True" x:Name="pop" Height="200" Width="200">
+            <Border Background="#428bca"></Border>
+        </Popup>
+        <Button Height="50" Width="30" Click="clickme" Margin="449,232,38,37"></Button>
+    </Grid>
+</Window>

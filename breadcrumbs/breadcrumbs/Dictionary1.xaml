@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    
+    <Style TargetType="Label" x:Key="breadcrumbsStart">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Grid Height="30" Width="70" x:Name="grid">
+                        <Border>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                        <Separator>
+                            <Separator.Margin>
+                                <Thickness Left="60" Top="5" Right="0" Bottom="0"/>
+                            </Separator.Margin>
+                            <Separator.LayoutTransform>
+                                <RotateTransform Angle='130'/>
+                            </Separator.LayoutTransform>
+                        </Separator>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+    </Style>
+
+
+    <Style TargetType="Label" x:Key="breadcrumbsEnd">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Grid Height="30" Width="70" x:Name="grid">
+                        <Border>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

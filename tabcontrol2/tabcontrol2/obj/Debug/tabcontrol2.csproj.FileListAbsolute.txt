@@ -1,0 +1,16 @@
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\bin\Debug\tabcontrol2.exe.config
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\tabcontrol2.csprojResolveAssemblyReference.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\Dictionary1.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\MainWindow.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\App.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\Dictionary1.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\MainWindow.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\App.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\tabcontrol2_MarkupCompile.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\tabcontrol2.g.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\tabcontrol2.Properties.Resources.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\tabcontrol2.csproj.GenerateResource.Cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\bin\Debug\tabcontrol2.exe
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\bin\Debug\tabcontrol2.pdb
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\tabcontrol2.exe
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol2\tabcontrol2\obj\Debug\tabcontrol2.pdb

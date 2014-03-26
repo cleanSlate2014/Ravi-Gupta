@@ -1,0 +1,57 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Class="tabcontrol2.Dictionary1">
+
+    <Style TargetType="TabItem">
+       <!-- <EventSetter Event="TabItem.PreviewMouseLeftButtonDown" Handler="mouse_leftdown"></EventSetter>
+        <EventSetter Event="TabItem.Loaded" Handler="TabItemLoaded"></EventSetter>
+        <EventSetter Event="TabItem.MouseEnter" Handler="mouse_enter"/>
+        <EventSetter Event="TabItem.MouseLeave" Handler="mouse_leave"/>-->
+        <Setter Property="Background" Value="#333"/>
+        <Setter Property="Height" Value="70"/>
+        <Setter Property="Width" Value="160"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="FontFamily" Value="Verdana"/>
+        <Setter Property="Background" Value="{Binding Path=Background,RelativeSource={RelativeSource AncestorType=Window}}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TabItem">
+                    <Border Loaded="BorderLoaded"  Width="{TemplateBinding Width}" Background="White" Height="{TemplateBinding Height}" BorderBrush="#FFE2E2E2" BorderThickness="0,0,1,0" CornerRadius="3" >
+                        <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" >
+                            <ContentPresenter  Content="{TemplateBinding Header}"  HorizontalAlignment="Center"  VerticalAlignment="Center" >
+                                <TextBlock.FontFamily>
+                                    Calibri
+                                </TextBlock.FontFamily>
+                                <TextBlock.FontSize>
+                                    15
+                                </TextBlock.FontSize>
+                            </ContentPresenter>
+                            <Border x:Name="childborder" CornerRadius="1" VerticalAlignment="Bottom" Margin="0,0,0,1"   HorizontalAlignment="Center"  Background="#FFdddcdc" />
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="childborder" Property="Background" Value="{Binding Path=Background, RelativeSource={RelativeSource TemplatedParent}}"></Setter>
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="False">
+                            <Setter TargetName="childborder" Property="Background" Value="#eee"></Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+        
+    </Style>
+
+
+    <Style TargetType="TabControl">
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>
+    
+    
+    
+    
+    
+
+</ResourceDictionary>

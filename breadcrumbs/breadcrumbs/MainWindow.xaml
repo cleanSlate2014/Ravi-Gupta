@@ -1,0 +1,15 @@
+﻿<Window x:Class="breadcrumbs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="Home" Height="30" Width="70" Margin="65,145,280,145" Style="{StaticResource breadcrumbsStart}" Foreground="#428bca" FontSize="15"/>
+
+        <Label Foreground="#428bca" Content="Drawing" Width="100" Height="30" Margin="167,145,250,145" RenderTransformOrigin="-0.442,0.433" Style="{StaticResource breadcrumbsStart}"></Label>
+
+        <Label Foreground="#428bca" Content="Library" Width="100" Height="30" Margin="239,145,178,145" Style="{StaticResource breadcrumbsStart}"></Label>
+
+        <Label Foreground="Gray" Content="End" Width="100" Height="30" Margin="297,145,120,145" Style="{StaticResource breadcrumbsEnd}"></Label>
+
+    </Grid>
+</Window>

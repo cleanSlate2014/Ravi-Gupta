@@ -9,14 +9,14 @@
         <ProgressBar  Style="{StaticResource ResourceKey=progressbarDefault}" Margin="42,59,400,211" Width="600" Background="#5cb85c"/>
         <ProgressBar   Style="{StaticResource ResourceKey=progressbarDefault}" Margin="42,97,650,195" Background="#d9534f" Width="400"/>
         <ProgressBar  Style="{StaticResource ResourceKey=progressbarDefault}" Margin="42,130,650,161" Width="400" Background="#f0ad4e"/>
-        <Button Content="Hello" HorizontalAlignment="Left" Margin="100,229,0,0" VerticalAlignment="Top" Width="75" Template="{StaticResource ResourceKey=buttonPrimary}" Height="30"  Background="#428bca" Foreground="White" FontSize="14" FontFamily="Menlo"></Button>
-        <!--<Button Content="Hello" HorizontalAlignment="Left" Margin="400,229,0,0" VerticalAlignment="Top" Width="75" Template="{StaticResource ResourceKey=my_button}" Height="30"  Background="#5cb85c" Foreground="White" FontSize="14" FontFamily="Menlo"></Button>
+        <!--<Button Content="Hello" HorizontalAlignment="Left" Margin="100,229,0,0" VerticalAlignment="Top" Width="75" Template="{StaticResource ResourceKey=buttonPrimary}" Height="30"  Background="#428bca" Foreground="White" FontSize="14" FontFamily="Menlo"></Button>
+        <Button Content="Hello" HorizontalAlignment="Left" Margin="400,229,0,0" VerticalAlignment="Top" Width="75" Template="{StaticResource ResourceKey=my_button}" Height="30"  Background="#5cb85c" Foreground="White" FontSize="14" FontFamily="Menlo"></Button>
         <Button Content="Hello" HorizontalAlignment="Left" Margin="500,229,0,0" VerticalAlignment="Top" Width="75" Template="{StaticResource ResourceKey=my_button}" Height="30"  Background="#d9534f" Foreground="White" FontSize="14" FontFamily="Menlo"></Button>
         <Button Content="Hello" HorizontalAlignment="Left" Margin="200,229,0,0" VerticalAlignment="Top" Width="75" Template="{StaticResource ResourceKey=my_button}" Height="30"  Background="#f0ad4e" Foreground="White" FontSize="14" FontFamily="Menlo"></Button>
         <Button Content="Hello" HorizontalAlignment="Left" Margin="300,229,0,0" VerticalAlignment="Top" Width="75" Template="{StaticResource ResourceKey=my_button}" Height="30"  Background="#5bc0de" Foreground="White" FontSize="14" FontFamily="Menlo"></Button>-->
-        <Border Name="xxx">
+        
            
-        </Border>
+       
     </Grid>
     
 </Window>

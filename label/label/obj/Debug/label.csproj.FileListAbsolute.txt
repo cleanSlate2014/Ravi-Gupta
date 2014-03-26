@@ -30,3 +30,19 @@ C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debu
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.g.resources
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.Properties.Resources.resources
 C:\Users\Samsung\Documents\Visual Studio 2012\Other Project\label\label\obj\Debug\label.csproj.GenerateResource.Cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\bin\Debug\label.exe.config
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\label.exe
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\label.pdb
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\bin\Debug\label.exe
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\bin\Debug\label.pdb
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\label.csprojResolveAssemblyReference.cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\Dictionary1.baml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\MainWindow.baml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\App.baml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\Dictionary1.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\MainWindow.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\App.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\label_MarkupCompile.cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\label.g.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\label.Properties.Resources.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\label\label\obj\Debug\label.csproj.GenerateResource.Cache

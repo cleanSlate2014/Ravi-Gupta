@@ -5,21 +5,21 @@
         Title="MainWindow" Height="350" Width="1370"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
-        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.page.delete.png"/>
-        <BitmapImage x:Key="ImageSource2" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.clipboard.paper.png"/>
-        <BitmapImage x:Key="ImageSource3" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.folder.open.png"/>
-        <BitmapImage x:Key="ImageSource4" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.save.png"/>
-        <BitmapImage x:Key="ImageSource5" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.close.png"/>
-        <BitmapImage x:Key="ImageSource6" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.text.bold.png"/>
-        <BitmapImage x:Key="ImageSource7" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.text.italic.png"/>
-        <BitmapImage x:Key="ImageSource8" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.page.copy.png"/>
-        <BitmapImage x:Key="ImageSource9" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.clipboard.paste.png"/>
-        <BitmapImage x:Key="ImageSource10" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.draw.brush.reflection.png"/>
-        <BitmapImage x:Key="ImageSource11" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.magnify.minus.png"/>
-        <BitmapImage x:Key="ImageSource12" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.magnify.add.png"/>
-        <BitmapImage x:Key="ImageSource13" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.list.png"/>
-        <BitmapImage x:Key="ImageSource14" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.cursor.hand.png"/>
-        <BitmapImage x:Key="ImageSource15" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\demptesting\demptesting\dark\appbar.cursor.default.png"/>
+        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.page.delete.png"/>
+        <BitmapImage x:Key="ImageSource2" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.clipboard.paper.png"/>
+        <BitmapImage x:Key="ImageSource3" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.folder.open.png"/>
+        <BitmapImage x:Key="ImageSource4" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.save.png"/>
+        <BitmapImage x:Key="ImageSource5" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.close.png"/>
+        <BitmapImage x:Key="ImageSource6" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.text.bold.png"/>
+        <BitmapImage x:Key="ImageSource7" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.text.italic.png"/>
+        <BitmapImage x:Key="ImageSource8" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.page.copy.png"/>
+        <BitmapImage x:Key="ImageSource9" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.clipboard.paste.png"/>
+        <BitmapImage x:Key="ImageSource10" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.draw.brush.reflection.png"/>
+        <BitmapImage x:Key="ImageSource11" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.magnify.minus.png"/>
+        <BitmapImage x:Key="ImageSource12" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.magnify.add.png"/>
+        <BitmapImage x:Key="ImageSource13" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.list.png"/>
+        <BitmapImage x:Key="ImageSource14" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.cursor.hand.png"/>
+        <BitmapImage x:Key="ImageSource15" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="c:\users\samsung\documents\visual studio 2012\Projects\ToolBox\demptesting\dark\appbar.cursor.default.png"/>
     </Window.Resources>
 
     <Grid Width="{Binding Path=Width,RelativeSource={RelativeSource Self}}">

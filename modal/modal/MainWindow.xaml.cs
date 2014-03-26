@@ -23,12 +23,13 @@ namespace modal
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void buttonClick(object sender, RoutedEventArgs e)
         {
             modal2 m = new modal2();
-            m.Show();
+            m.ShowDialog();
         }
     }
 }
