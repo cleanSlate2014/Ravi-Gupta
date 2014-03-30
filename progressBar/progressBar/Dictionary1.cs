@@ -18,18 +18,26 @@ namespace progressBar
     partial class Dictionary1
     {
        
+       // CustomProgressBar progress = new CustomProgressBar();
+        
 
         public Dictionary1()
         {
-
+            //Canvas.SetZIndex(textblock, 5);
+            //Canvas canvas = new Canvas();
+            //
+            //canvas.Children.Add(textblock);
+            //canvas.Background = Brushes.Transparent;
+           // canvas.HorizontalAlignment = HorizontalAlignment.Center;
+          //  canvas.VerticalAlignment = VerticalAlignment.Center;
+          //  Grid grid2 = progress.FindName("grid2") as Grid;
+           // Console.WriteLine(grid2);
+            
         }
 
      
 
-        private void mouseenterProgressbar(object sender, MouseEventArgs e)
-        {
-            ((Border)sender).Width++;
-        }//Progress Bar End Here
+       
 
 
         private void animatedBorderLoaded(object sender, RoutedEventArgs e)
@@ -54,10 +62,12 @@ namespace progressBar
 
     class CustomProgressBar : ProgressBar
     {
+        
         public static readonly DependencyProperty ValueProperty = DependencyProperty.Register("Value", typeof(Double), typeof(CustomProgressBar), new PropertyMetadata( new PropertyChangedCallback(OnValueChanged) ) );
         public static readonly DependencyProperty RangeProperty = DependencyProperty.Register("Range", typeof(Double), typeof(CustomProgressBar), new PropertyMetadata((Double)100));
         public static readonly DependencyProperty widthValueProperty = DependencyProperty.Register("widthValue", typeof(Double), typeof(CustomProgressBar), new PropertyMetadata(default(Double)));
-        public static readonly DependencyProperty TypeProperty = DependencyProperty.Register("Type", typeof(String), typeof(CustomProgressBar), new PropertyMetadata("progressbarInfo", new PropertyChangedCallback(OnTypeChanged) ));
+        public static readonly DependencyProperty TypeProperty = DependencyProperty.Register("Type", typeof(String), typeof(CustomProgressBar), new PropertyMetadata("progressBarInfo", new PropertyChangedCallback(OnTypeChanged) ));
+       // public static readonly DependencyProperty TextProperty = DependencyProperty.Register("Text", typeof(String), typeof(CustomProgressBar), new PropertyMetadata(null));
 
         public CustomProgressBar() 
         {
@@ -80,10 +90,26 @@ namespace progressBar
         {
             
             CustomProgressBar progress = sender as CustomProgressBar;
+            TextBlock textblock = new TextBlock();
+            Canvas canvas = new Canvas();
+            canvas.HorizontalAlignment = HorizontalAlignment.Center;
+            canvas.VerticalAlignment = VerticalAlignment.Center;
+            canvas.Children.Add(textblock);
+            try
+            {
+                Grid grid2 = (Grid)progress.Template.FindName("grid", progress);
+                grid2.Children.Add(canvas);
+            }
+            catch (Exception)
+            {
+            }
             
             //Border progressValue = progress.FindName("progressValue") as Border;
 
             progress.widthValue = (((progress.Value * 100) / progress.Range) * progress.Width) / 100;
+            textblock.Text = progress.Value+"";
+            Console.WriteLine(textblock.Text);
+            
            
 
         }
@@ -103,13 +129,20 @@ namespace progressBar
             set { SetValue(widthValueProperty, value); }
         }
 
-
+        
         
         public String Type
         {
             get { return (String)GetValue(TypeProperty); }
             set { SetValue(TypeProperty, value); }
         }
+
+
+       /* public String Text
+        {
+            get { return (String)GetValue(TextProperty); }
+            set { SetValue(TextProperty, value); }
+        }*/
 
        
 

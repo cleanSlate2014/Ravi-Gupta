@@ -20,9 +20,6 @@
         </Setter>
     </Style>
     <Style TargetType="Border" x:Key="styleShadowTopColor">
-        <!--Event Of Mouse Hover Start Here-->
-        <EventSetter Event="Border.MouseEnter" Handler="mouseenterProgressbar"></EventSetter>
-        <!--Event Of Mouse Hover End Here-->
         <Setter Property="Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5">
@@ -41,8 +38,8 @@
         <Setter Property="Control.Template">
             <Setter.Value>
                 <ControlTemplate TargetType="lib:CustomProgressBar" >
-                    <Grid Height="{TemplateBinding Height}" Width="{TemplateBinding Width}">
-                        <Border x:Name="a" HorizontalAlignment="Left" Height="{TemplateBinding Height}"   VerticalAlignment="Top" Width="{TemplateBinding Width}"  BorderBrush="#ddd"  ClipToBounds="True" CornerRadius="3" Style="{StaticResource styleShadowTop}" >
+                    <Grid Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" x:Name="grid">
+                        <Border x:Name="backBar" HorizontalAlignment="Left" Height="{TemplateBinding Height}"   VerticalAlignment="Top" Width="{TemplateBinding Width}"  BorderBrush="#ddd"  ClipToBounds="True" CornerRadius="3" Style="{StaticResource styleShadowTop}" >
                             <Border   Height="{TemplateBinding Height}" Width="{TemplateBinding widthValue}" x:Name="progressValue"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource styleShadowTopColor}" Background="{TemplateBinding Background}"></Border>
                         </Border>
                        
@@ -90,6 +87,14 @@
     <!--Style For Info Progress Bar End Here-->
     
     
+    
+    <!--....................................................Progress Bar Basic End Here..................................................................................-->
+    
+    <!--....................................................Progress Bar Animation Start Here............................................................................-->
+    
+    
+    
+    
     <!--Animation Code Start Here-->
     <Style TargetType="Border" x:Key="animation">
         <Setter Property="Background">
@@ -117,15 +122,15 @@
     <!--Animated Progress Bar Start Here-->
     <!-- Style for Progress Bar Start Here -->
     <Style  x:Key="progressbarAnimated" TargetType="ProgressBar">
-        <Setter Property="Height" Value="20"></Setter>
+        <Setter Property="Height" Value="10"></Setter>
         <Setter Property="Width" Value="500"/>
         <Setter Property="Control.Template">
             <Setter.Value>
-                <ControlTemplate TargetType="ProgressBar" >
-                    <Grid Height="{TemplateBinding Height}" Width="{TemplateBinding Width}">
-                        <Border x:Name="a" HorizontalAlignment="Left" Height="20px"   VerticalAlignment="Top" Width="{TemplateBinding Width}"  BorderBrush="#777"  ClipToBounds="True" CornerRadius="3" Style="{StaticResource styleShadowTop}" >
-                            <Border  Height="20" Width="300"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource animation}" Background="{TemplateBinding Background}"  Loaded="animatedBorderLoaded" >
-                                <Border   Height="20" Width="300"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource animation}" >
+                <ControlTemplate TargetType="lib:CustomProgressBar" >
+                    <Grid Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" x:Name="grid">
+                        <Border x:Name="backBar" HorizontalAlignment="Left" Height="{TemplateBinding Height}"   VerticalAlignment="Top" Width="{TemplateBinding Width}"  BorderBrush="#777"  ClipToBounds="True" CornerRadius="3" Style="{StaticResource styleShadowTop}" >
+                            <Border  Height="{TemplateBinding Height}" Width="{TemplateBinding widthValue}"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource animation}" Background="{TemplateBinding Background}"  Loaded="animatedBorderLoaded" >
+                                <Border   Height="{TemplateBinding Height}" Width="{TemplateBinding widthValue}"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource animation}" >
                                     <Border.Background>
                                         <DrawingBrush TileMode="Tile" Stretch="None" Viewbox="0,0,1,1" Viewport="0,0,25,25" ViewportUnits="Absolute">
                                             <DrawingBrush.RelativeTransform>
@@ -158,56 +163,58 @@
     
     
     <!--Style For Progress Bar Primary Animation Start Here-->
-    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressbarAnimatedPrimary">
+    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressBarAnimatedPrimary">
         <Setter Property="Background" Value="#428bca"/>
     </Style>
     <!--Style For Progress Bar Primary Animation End Here-->
 
 
     <!--Style For Progress Bar Info Animation Start Here-->
-    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressbarAnimatedInfo">
+    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressBarAnimatedInfo">
         <Setter Property="Background" Value="#5bc0de"/>
     </Style>
     <!--Style For Progress Bar Info Animation End Here-->
 
 
     <!--Style For Progress Bar Warning Animation Start Here-->
-    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressbarAnimatedWarning">
+    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressBarAnimatedWarning">
         <Setter Property="Background" Value="#f0ad4e"/>
     </Style>
     <!--Style For Progress Bar Warning Animation End Here-->
 
 
     <!--Style For Progress Bar Success Animation Start Here-->
-    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressbarAnimatedSuccess">
+    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressBarAnimatedSuccess">
         <Setter Property="Background" Value="#5cb85c"/>
     </Style>
     <!--Style For Progress Bar Success Animation End Here-->
 
 
     <!--Style For Progress Bar Danger Animation Start Here-->
-    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressbarAnimatedDanger">
+    <Style BasedOn="{StaticResource progressbarAnimated}" TargetType="ProgressBar" x:Key="progressBarAnimatedDanger">
         <Setter Property="Background" Value="#d9534f"/>
     </Style>
     <!--Style For Progress Bar Danger Animation End Here-->
 
 
 
-    <!--Animated Progress Bar End Here-->
+    <!--...................................................................Animated Progress Bar End Here.........................................................-->
+    
+    <!--...................................................................Stripped Progress Bar Start Here....................................................................-->
     
     
     
     <!--Style For Stripped Progress Bar Start Here-->
     <Style  x:Key="progressbarStripped" TargetType="ProgressBar">
-        <Setter Property="Height" Value="20"></Setter>
+        <Setter Property="Height" Value="10"></Setter>
         <Setter Property="Width" Value="500"/>
         <Setter Property="Control.Template">
             <Setter.Value>
-                <ControlTemplate TargetType="ProgressBar" >
-                    <Grid Height="{TemplateBinding Height}" Width="{TemplateBinding Width}">
-                        <Border x:Name="a" HorizontalAlignment="Left" Height="20px"   VerticalAlignment="Top" Width="{TemplateBinding Width}"  BorderBrush="#777"  ClipToBounds="True" CornerRadius="3" Style="{StaticResource styleShadowTop}" >
-                            <Border  Height="20" Width="300"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource animation}" Background="{TemplateBinding Background}"  Loaded="animatedBorderLoaded" >
-                                <Border   Height="20" Width="300"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource animation}" >
+                <ControlTemplate TargetType="lib:CustomProgressBar" >
+                    <Grid Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" x:Name="grid">
+                        <Border x:Name="backBar" HorizontalAlignment="Left" Height="{TemplateBinding Height}"   VerticalAlignment="Top" Width="{TemplateBinding Width}"  BorderBrush="#777"  ClipToBounds="True" CornerRadius="3" Style="{StaticResource styleShadowTop}" >
+                            <Border  Height="{TemplateBinding Height}" Width="{TemplateBinding widthValue}"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource animation}" Background="{TemplateBinding Background}"  Loaded="animatedBorderLoaded" >
+                                <Border   Height="{TemplateBinding Height}" Width="{TemplateBinding widthValue}"   HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3,0,0,3" Style="{StaticResource animation}" >
                                     <Border.Background>
                                         <DrawingBrush TileMode="Tile" Stretch="None" Viewbox="0,0,1,1" Viewport="0,0,25,25" ViewportUnits="Absolute">
                                             <DrawingBrush.RelativeTransform>
@@ -231,37 +238,40 @@
 
 
     <!--Style For Progress Bar Primary Stripped Start Here-->
-    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressbarStrippedPrimary">
+    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressBarStrippedPrimary">
         <Setter Property="Background" Value="#428bca"/>
     </Style>
     <!--Style For Progress Bar Primary Stripped End Here-->
 
 
     <!--Style For Progress Bar Info Stripped Start Here-->
-    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressbarStrippedInfo">
+    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressBarStrippedInfo">
         <Setter Property="Background" Value="#5bc0de"/>
     </Style>
     <!--Style For Progress Bar Info Stripped End Here-->
 
 
     <!--Style For Progress Bar Warning Stripped Start Here-->
-    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressbarStrippedWarning">
+    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressBarStrippedWarning">
         <Setter Property="Background" Value="#f0ad4e"/>
     </Style>
     <!--Style For Progress Bar Warning Stripped End Here-->
 
 
     <!--Style For Progress Bar Success Stripped Start Here-->
-    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressbarStrippedSuccess">
+    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressBarStrippedSuccess">
         <Setter Property="Background" Value="#5cb85c"/>
     </Style>
     <!--Style For Progress Bar Success Stripped End Here-->
 
 
     <!--Style For Progress Bar Danger Stripped Start Here-->
-    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressbarStrippedDanger">
+    <Style BasedOn="{StaticResource progressbarStripped}" TargetType="ProgressBar" x:Key="progressBarStrippedDanger">
         <Setter Property="Background" Value="#d9534f"/>
     </Style>
     <!--Style For Progress Bar Danger Stripped End Here-->
+    
+    
+    <!--.................................................................................Stripped Progress Bar End Here.........................................................................-->
 
 </ResourceDictionary>

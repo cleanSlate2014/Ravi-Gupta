@@ -4,21 +4,24 @@
         xmlns:lib="clr-namespace:progressBar"
         Title="MainWindow" Height="700" Width="525">
     <Grid>
-        <lib:CustomProgressBar Style="{StaticResource progressbarStrippedInfo}" Value="90" Margin="7,498,10,151" ></lib:CustomProgressBar>
-        <ProgressBar Style="{StaticResource progressbarStrippedWarning}" Margin="8,463,9,186" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarStrippedPrimary}" Margin="7,428,10,221" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarStrippedDanger}" Margin="8,393,9,256" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarStrippedSuccess}" Margin="8,359,9,290" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarAnimatedInfo}" Margin="10,324,7,325" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarAnimatedDanger}" Margin="10,114,7,185" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarAnimatedWarning}" Margin="8,80,9,219" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarAnimatedSuccess}" Margin="10,46,7,253"  ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarAnimatedPrimary}" Margin="10,10,7,289"  ></ProgressBar>
-        <lib:CustomProgressBar Width="500" Height="10" Value="80"  Margin="10,150,7,499"  ></lib:CustomProgressBar>
-        <!--<ProgressBar Style="{StaticResource progressbarDanger}" Margin="10,116,7,533" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarWarning}" Margin="10,79,7,570" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarSuccess}" Margin="10,45,7,604" ></ProgressBar>
-        <ProgressBar Style="{StaticResource progressbarPrimary}" Margin="10,10,7,639" ></ProgressBar>-->
-       
+        <lib:CustomProgressBar  Value="10" Margin="7,282,10,377" Type="progressBarStrippedPrimary"  ></lib:CustomProgressBar>
+        <lib:CustomProgressBar  Value="30" Margin="7,312,10,347" Type="progressBarStrippedWarning" ></lib:CustomProgressBar>
+        <lib:CustomProgressBar  Value="70" Margin="7,371,10,288" Type="progressBarStrippedDanger" ></lib:CustomProgressBar>
+        <lib:CustomProgressBar  Value="90" Margin="7,400,10,259" Type="progressBarStrippedInfo" ></lib:CustomProgressBar>
+        <lib:CustomProgressBar  Value="50" Margin="7,340,10,319" Type="progressBarStrippedSuccess" ></lib:CustomProgressBar>
+        
+        
+        <lib:CustomProgressBar Margin="7,137,10,522" Value="10" Type="progressBarAnimatedWarning"  ></lib:CustomProgressBar>
+        <lib:CustomProgressBar Margin="7,163,10,496" Value="30"  Type="progressBarAnimatedDanger" ></lib:CustomProgressBar>
+        <lib:CustomProgressBar Margin="7,190,10,469" Value="50" Type="progressBarAnimatedPrimary" ></lib:CustomProgressBar>
+        <lib:CustomProgressBar Margin="7,221,10,438" Value="70" Type="progressBarAnimatedSuccess" ></lib:CustomProgressBar>
+        <lib:CustomProgressBar Margin="7,252,10,407" Value="90" Type="progressBarAnimatedInfo" ></lib:CustomProgressBar>
+
+        <lib:CustomProgressBar Width="500" Height="10" Value="10"  Margin="7,112,10,547"  ></lib:CustomProgressBar>
+        <lib:CustomProgressBar Width="500" Height="10" Value="30" Type="progressBarDanger"  Margin="7,86,10,573"  ></lib:CustomProgressBar>
+        <lib:CustomProgressBar Width="500" Height="10" Value="50"  Margin="7,60,10,599" Type="progressBarWarning"  ></lib:CustomProgressBar>
+        <lib:CustomProgressBar Width="500" Height="10" Value="70"  Margin="7,34,10,625" Type="progressBarPrimary"  ></lib:CustomProgressBar>
+        <lib:CustomProgressBar Width="500" Height="10" Value="90"  Margin="7,10,10,649" Type="progressBarSuccess"  ></lib:CustomProgressBar>
+
     </Grid>
 </Window>
