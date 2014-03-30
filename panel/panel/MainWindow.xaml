@@ -18,9 +18,9 @@
         <Label Style="{StaticResource headingPanelDanger}" Content="This Is a Heading" Margin="0,0,0,50"/>
         <Label Style="{StaticResource textPanel}"  Content="This Is A Content" Margin="0,40,0,0"></Label>
         </Grid>
-        <Grid Style="{StaticResource panel}" Margin="754,33,98,380">
+        <Grid Style="{StaticResource panel}" Margin="754,33,98,380" >
             <Label Style="{StaticResource headingPanelSuccess}" Content="This Is a Heading" Margin="0,0,0,50"/>
-            <Label Style="{StaticResource textPanel}"  Content="This Is A Content" Margin="0,40,0,0"></Label>
+            <Label Style="{StaticResource textPanel}"  Content="This Is A Content" Margin="0,40,0,0" Height="70"></Label>
         </Grid>
         <Grid Style="{StaticResource panel}" Margin="754,223,98,190">
             <Label Style="{StaticResource headingPanelInfo}" Content="This Is a Heading" Margin="0,0,0,50"/>

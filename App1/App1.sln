@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "App1", "App1\App1.jsproj", "{1c27fea5-69ba-4648-ad75-9fbae681c574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|ARM.Build.0 = Debug|ARM
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|x64.ActiveCfg = Debug|x64
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|x64.Build.0 = Debug|x64
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|x64.Deploy.0 = Debug|x64
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|x86.ActiveCfg = Debug|x86
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|x86.Build.0 = Debug|x86
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Debug|x86.Deploy.0 = Debug|x86
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|ARM.ActiveCfg = Release|ARM
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|ARM.Build.0 = Release|ARM
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|ARM.Deploy.0 = Release|ARM
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|x64.ActiveCfg = Release|x64
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|x64.Build.0 = Release|x64
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|x64.Deploy.0 = Release|x64
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|x86.ActiveCfg = Release|x86
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|x86.Build.0 = Release|x86
+		{1C27FEA5-69BA-4648-AD75-9FBAE681C574}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+EndGlobal

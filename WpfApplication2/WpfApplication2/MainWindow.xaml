@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"  WindowState="Maximized">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Margin="635,478,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="x"> </ComboBoxItem>
+            <ComboBoxItem Content="z"></ComboBoxItem>
+            <ComboBoxItem Content="y"></ComboBoxItem>
+        </ComboBox>
+
+    </Grid>
+</Window>

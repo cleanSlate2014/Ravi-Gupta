@@ -6,7 +6,7 @@
     <Grid>
 <Rectangle></Rectangle>
         <ProgressBar   Style="{StaticResource ResourceKey=progressbarDefault}" Margin="92,25,700,261" Background="#428bca" Width="400"/>
-        <ProgressBar  Style="{StaticResource ResourceKey=progressbarDefault}" Margin="42,59,400,211" Width="600" Background="#5cb85c"/>
+        <ProgressBar  Style="{StaticResource ResourceKey=progressbarDefault}" Margin="92,58,500,212" Width="600" Background="#5cb85c"/>
         <ProgressBar   Style="{StaticResource ResourceKey=progressbarDefault}" Margin="42,97,650,195" Background="#d9534f" Width="400"/>
         <ProgressBar  Style="{StaticResource ResourceKey=progressbarDefault}" Margin="42,130,650,161" Width="400" Background="#f0ad4e"/>
         <!--<Button Content="Hello" HorizontalAlignment="Left" Margin="100,229,0,0" VerticalAlignment="Top" Width="75" Template="{StaticResource ResourceKey=buttonPrimary}" Height="30"  Background="#428bca" Foreground="White" FontSize="14" FontFamily="Menlo"></Button>

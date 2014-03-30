@@ -22,8 +22,8 @@ namespace messageboxmain
     
     public partial class messagebox : Window
     {
-       static messagebox mb1 = new messagebox();
-       static Grid gr = new Grid();
+      // static messagebox mb1 = new messagebox();
+       //static Grid gr = new Grid();
        
         
         
@@ -32,7 +32,7 @@ namespace messageboxmain
             InitializeComponent();
             
         }
-        public static void SHOW(string body)
+       /* public static void SHOW(string body)
         {
             
             mb1.AddChild(gr);
@@ -44,7 +44,7 @@ namespace messageboxmain
             gr.Height = 200;
             gr.Width = 200;
             
-        }
+        }*/
         private void move(object sender, RoutedEventArgs e)
         {
             DragMove();

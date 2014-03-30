@@ -24,13 +24,14 @@ namespace messageboxmain
         public MainWindow()
         {
             InitializeComponent();
+           
         }
         private void clicked(object sender, RoutedEventArgs e)
         {
-
-
-            messagebox.SHOW("Hello in this Beautiful World");
+            messagebox mboxi = new messagebox();
+            mboxi.ShowDialog();
             
+           
             
            
         }

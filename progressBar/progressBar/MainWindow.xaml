@@ -1,0 +1,24 @@
+﻿ <Window x:Class="progressBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="clr-namespace:progressBar"
+        Title="MainWindow" Height="700" Width="525">
+    <Grid>
+        <lib:CustomProgressBar Style="{StaticResource progressbarStrippedInfo}" Value="90" Margin="7,498,10,151" ></lib:CustomProgressBar>
+        <ProgressBar Style="{StaticResource progressbarStrippedWarning}" Margin="8,463,9,186" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarStrippedPrimary}" Margin="7,428,10,221" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarStrippedDanger}" Margin="8,393,9,256" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarStrippedSuccess}" Margin="8,359,9,290" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarAnimatedInfo}" Margin="10,324,7,325" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarAnimatedDanger}" Margin="10,114,7,185" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarAnimatedWarning}" Margin="8,80,9,219" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarAnimatedSuccess}" Margin="10,46,7,253"  ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarAnimatedPrimary}" Margin="10,10,7,289"  ></ProgressBar>
+        <lib:CustomProgressBar Width="500" Height="10" Value="80"  Margin="10,150,7,499"  ></lib:CustomProgressBar>
+        <!--<ProgressBar Style="{StaticResource progressbarDanger}" Margin="10,116,7,533" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarWarning}" Margin="10,79,7,570" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarSuccess}" Margin="10,45,7,604" ></ProgressBar>
+        <ProgressBar Style="{StaticResource progressbarPrimary}" Margin="10,10,7,639" ></ProgressBar>-->
+       
+    </Grid>
+</Window>
