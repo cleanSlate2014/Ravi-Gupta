@@ -30,3 +30,4 @@ C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window\window\obj\Debu
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window\window\obj\Debug\window.g.resources
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window\window\obj\Debug\window.Properties.Resources.resources
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window\window\obj\Debug\window.csproj.GenerateResource.Cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window\window\obj\Debug\GeneratedInternalTypeHelper.g.cs

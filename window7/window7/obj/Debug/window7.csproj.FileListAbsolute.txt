@@ -1,0 +1,16 @@
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\bin\Debug\window7.exe.config
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\bin\Debug\window7.exe
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\bin\Debug\window7.pdb
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\window7.csprojResolveAssemblyReference.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\Dictionary1.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\MainWindow.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\App.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\window7_MarkupCompile.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\window7_MarkupCompile.lref
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\MainWindow.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\window7.g.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\window7.Properties.Resources.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\window7.csproj.GenerateResource.Cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\window7.exe
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window7\window7\obj\Debug\window7.pdb

@@ -1,0 +1,12 @@
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\bin\Debug\window6.dll
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\bin\Debug\window6.pdb
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\window6_MarkupCompile.cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\window6_MarkupCompile.lref
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\Themes\Generic.baml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\window6.g.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\window6.Properties.Resources.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\window6.csproj.GenerateResource.Cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\window6.dll
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\window6.pdb
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\window6\window6\obj\Debug\window6.csprojResolveAssemblyReference.cache

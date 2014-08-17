@@ -1,0 +1,9 @@
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\bin\Debug\window5.dll
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\bin\Debug\window5.pdb
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\obj\Debug\window5_MarkupCompile.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\obj\Debug\window5_MarkupCompile.lref
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\obj\Debug\Dictionary1.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\obj\Debug\window5.g.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\obj\Debug\window5.dll
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window5\window5\obj\Debug\window5.pdb

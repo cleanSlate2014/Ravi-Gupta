@@ -2,10 +2,33 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-   
+
     <Grid>
-        <Expander Header="Ravi" HorizontalAlignment="Left" Margin="124,91,0,0" VerticalAlignment="Top" Style="{StaticResource expanderPrimary}" Height="189" Width="128">
-            <Grid Background="#FF428bca" Width="125"/>
+        <Expander Header="Ravi" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource expanderPrimary}" Height="113" Width="128" Foreground="Purple" FontSize="15">
+            <Grid Background="Red" Width="125"/>
+        </Expander>
+        <Expander Header="Expander" HorizontalAlignment="Left" Margin="144,0,0,0" VerticalAlignment="Top" Style="{StaticResource expanderSuccess}">
+            <Grid Background="White">
+                <Button Content="Hello"></Button>
+            </Grid>
+        </Expander>
+        <Expander Header="Expander" HorizontalAlignment="Left" Margin="288,1,0,0" VerticalAlignment="Top" Style="{StaticResource expanderWarning}">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </Expander>
+        <Expander Header="Expander" HorizontalAlignment="Left" Margin="431,1,0,0" VerticalAlignment="Top" Style="{StaticResource expanderDanger}">
+            <Grid Background="#FFE5E5E5"/>
+        </Expander>
+        <Expander Header="Expander" HorizontalAlignment="Left" Margin="144,161,0,0" VerticalAlignment="Top" Style="{StaticResource expanderInfo}">
+            <Grid Background="#FFE5E5E5"/>
+        </Expander>
+        <Expander Header="Expander" HorizontalAlignment="Left" Margin="288,161,0,0" VerticalAlignment="Top" Style="{StaticResource expanderDefault}">
+            <Grid Background="#FFE5E5E5"/>
         </Expander>
 
     </Grid>

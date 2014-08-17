@@ -1,1 +1,9 @@
 c:\users\ravi-gupta\documents\visual studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\bin\Debug\tabcontrol_rectangle.exe.config
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\bin\Debug\tabcontrol_rectangle.exe
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\bin\Debug\tabcontrol_rectangle.pdb
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\bin\Debug\tabcontrol_rectangle.xml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\obj\Debug\tabcontrol_rectangle.Resources.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\obj\Debug\tabcontrol_rectangle.vbproj.GenerateResource.Cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\obj\Debug\tabcontrol_rectangle.exe
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\obj\Debug\tabcontrol_rectangle.xml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\tabcontrol_rectangle\tabcontrol_rectangle\obj\Debug\tabcontrol_rectangle.pdb

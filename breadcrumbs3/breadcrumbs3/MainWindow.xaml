@@ -1,0 +1,18 @@
+﻿<Window x:Class="breadcrumbs3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:breadcrumbs3"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Grid x:Name="gridy" >
+        <local:Breadcrumbs Margin="0,29,-183,260" >
+            <local:Childcrumbs content="Home"></local:Childcrumbs>
+            <local:Childcrumbs content="Account"></local:Childcrumbs>
+            <local:Childcrumbs content="Setting"></local:Childcrumbs>
+            <local:Childcrumbs content="Profile"></local:Childcrumbs>
+            <local:Childcrumbs content="Xyz"></local:Childcrumbs>
+            <local:Childcrumbs  activeContent="Change Password" ></local:Childcrumbs>
+        </local:Breadcrumbs>
+
+    </Grid>
+</Window>

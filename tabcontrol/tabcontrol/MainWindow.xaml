@@ -1,7 +1,7 @@
 ﻿<Window x:Class="tabcontrol.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" WindowState="Maximized" Background="Aqua">
+        Title="MainWindow" WindowState="Maximized" Background="Purple">
     <Grid>
         <TabControl>
             <TabItem Header="First Tab"/>

@@ -1,0 +1,10 @@
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\obj\Debug\Mm.Wpf.Controls.csprojResolveAssemblyReference.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\obj\Debug\Mm.Wpf.Controls_MarkupCompile.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\obj\Debug\Mm.Wpf.Controls_MarkupCompile.lref
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\bin\Debug\Mm.Wpf.Controls.dll
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\bin\Debug\Mm.Wpf.Controls.pdb
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\obj\Debug\Themes\Generic.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\obj\Debug\Mm.Wpf.Controls.g.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\obj\Debug\Mm.Wpf.Controls.dll
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\Mm.Wpf.Controls\Mm.Wpf.Controls\obj\Debug\Mm.Wpf.Controls.pdb

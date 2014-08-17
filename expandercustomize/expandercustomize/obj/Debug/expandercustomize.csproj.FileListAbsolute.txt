@@ -1,0 +1,16 @@
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\bin\Debug\expandercustomize.exe.config
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\bin\Debug\expandercustomize.exe
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\bin\Debug\expandercustomize.pdb
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\Dictionary1.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\MainWindow.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\App.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\Dictionary1.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\MainWindow.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\App.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\expandercustomize_MarkupCompile.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\expandercustomize.g.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\expandercustomize.Properties.Resources.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\expandercustomize.csproj.GenerateResource.Cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\expandercustomize.exe
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\expandercustomize.pdb
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\expandercustomize\expandercustomize\obj\Debug\expandercustomize.csprojResolveAssemblyReference.cache

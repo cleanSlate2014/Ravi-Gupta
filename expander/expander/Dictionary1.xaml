@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     x:Class="expander.Class2">
 
-    <Style x:Key="expanderPrimary" TargetType="{x:Type Expander}">
+    <Style x:Key="expanderBasic" TargetType="{x:Type Expander}">
 
         <Setter Property="Background" Value="Transparent"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
@@ -27,7 +27,8 @@
                                             </Setter.Value>
                                         </Setter>
                                     </Style>
-                                </ToggleButton.FocusVisualStyle>
+                                   
+                              </ToggleButton.FocusVisualStyle>
                                 <ToggleButton.Style>
                                     <Style TargetType="{x:Type ToggleButton}">
                                         <Setter Property="Template">
@@ -39,8 +40,8 @@
                                                                 <ColumnDefinition Width="19"/>
                                                                 <ColumnDefinition Width="*"/>
                                                             </Grid.ColumnDefinitions>
-                                                            <Ellipse x:Name="circle" Fill="White" HorizontalAlignment="Center" Height="19" Stroke="#FF428bca" VerticalAlignment="Center" Width="19"/>
-                                                            <Path x:Name="arrow" Data="M1,1.5L4.5,5 8,1.5" HorizontalAlignment="Center" SnapsToDevicePixels="False" Stroke="#FF428bca" StrokeThickness="2" VerticalAlignment="Center"/>
+                                                            <Ellipse x:Name="circle" Fill="White" HorizontalAlignment="Center" Height="19" Stroke="{TemplateBinding Foreground}" VerticalAlignment="Center" Width="19"/>
+                                                            <Path x:Name="arrow" Data="M1,1.5L4.5,5 8,1.5" HorizontalAlignment="Center" SnapsToDevicePixels="False" Stroke="{TemplateBinding Foreground}" StrokeThickness="2" VerticalAlignment="Center"/>
                                                             <ContentPresenter ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Grid.Column="1" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalAlignment="Left" Margin="4,0,0,0" RecognizesAccessKey="True" SnapsToDevicePixels="True" VerticalAlignment="Center"/>
                                                         </Grid>
                                                     </Border>
@@ -200,4 +201,23 @@
         </Setter>
     </Style>
 
+    
+    <Style TargetType="Expander" BasedOn="{StaticResource expanderBasic}" x:Key="expanderSuccess">
+        <Setter Property="Foreground" Value="#5cb85c"></Setter>
+    </Style>
+    <Style TargetType="Expander" BasedOn="{StaticResource expanderBasic}" x:Key="expanderPrimary">
+        <Setter Property="Foreground" Value="#428bca"></Setter>
+    </Style>
+    <Style TargetType="Expander" BasedOn="{StaticResource expanderBasic}" x:Key="expanderWarning">
+        <Setter Property="Foreground" Value="#f0ad4e"></Setter>
+    </Style>
+    <Style TargetType="Expander" BasedOn="{StaticResource expanderBasic}" x:Key="expanderDanger">
+        <Setter Property="Foreground" Value="#d9534f"></Setter>
+    </Style>
+    <Style TargetType="Expander" BasedOn="{StaticResource expanderBasic}" x:Key="expanderInfo">
+        <Setter Property="Foreground" Value="#5bc0de"></Setter>
+    </Style>
+    <Style TargetType="Expander" BasedOn="{StaticResource expanderBasic}" x:Key="expanderDefault">
+        <Setter Property="Foreground" Value="#777"></Setter>
+    </Style>
 </ResourceDictionary>

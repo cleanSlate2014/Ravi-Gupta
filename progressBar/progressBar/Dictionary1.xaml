@@ -145,7 +145,7 @@
                                         <EventTrigger RoutedEvent="FrameworkElement.Loaded">
                                             <BeginStoryboard>
                                                 <Storyboard>
-                                                    <DoubleAnimation Storyboard.TargetProperty="(Border.Background).(DrawingBrush.RelativeTransform).(TranslateTransform.X)" From="0" To=".25" RepeatBehavior="Forever" Duration="0:0:4.5" />
+                                                    <DoubleAnimation Storyboard.TargetProperty="(Border.Background).(DrawingBrush.RelativeTransform).(TranslateTransform.X)" From="0" To=".5" RepeatBehavior="Forever" Duration="0:0:5" />
                                                 </Storyboard>
                                             </BeginStoryboard>
                                         </EventTrigger>

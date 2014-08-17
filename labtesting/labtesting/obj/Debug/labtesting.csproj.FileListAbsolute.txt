@@ -1,0 +1,12 @@
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\labtesting\labtesting\bin\Debug\labtesting.exe.config
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\bin\Debug\labtesting.exe
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\bin\Debug\labtesting.pdb
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\MainWindow.baml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\MainWindow.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\App.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\labtesting_MarkupCompile.cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\labtesting.g.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\labtesting.Properties.Resources.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\labtesting.csproj.GenerateResource.Cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\labtesting.exe
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\labtesting\labtesting\obj\Debug\labtesting.pdb

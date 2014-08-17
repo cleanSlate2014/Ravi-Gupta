@@ -16,3 +16,4 @@ c:\users\ravi-gupta\documents\visual studio 2012\Projects\progressBar\progressBa
 c:\users\ravi-gupta\documents\visual studio 2012\Projects\progressBar\progressBar\obj\Debug\progressBar.csprojResolveAssemblyReference.cache
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\progressBar\progressBar\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\progressBar\progressBar\obj\Debug\progressBar_MarkupCompile.lref
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\progressBar\progressBar\bin\Debug\progressBar.XML

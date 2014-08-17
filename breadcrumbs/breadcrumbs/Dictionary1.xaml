@@ -1,8 +1,10 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Class="breadcrumbs.Dictionary1">
     
     
-    <Style TargetType="Label" x:Key="breadcrumbsStart">
+   <!-- <Style TargetType="Label" x:Key="breadcrumbsStart" x:Name="breadcrumbs">
+      
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Label">
@@ -24,15 +26,21 @@
         </Setter>
         
     </Style>
+    -->
 
 
     <Style TargetType="Label" x:Key="breadcrumbsEnd">
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="300"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="Foreground" Value="#428bca"/>
+        <Setter Property="FontSize" Value="15"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Label">
-                    <Grid Height="30" Width="70" x:Name="grid">
+                    <Grid Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" Background="{TemplateBinding Background}" x:Name="grid">
                         <Border>
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                            <ContentPresenter  HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
                         </Border>
                     </Grid>
                 </ControlTemplate>

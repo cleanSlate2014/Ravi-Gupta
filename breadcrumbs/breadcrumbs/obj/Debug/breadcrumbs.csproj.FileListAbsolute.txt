@@ -28,3 +28,4 @@ C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\breadcrumbs\breadcrumb
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\breadcrumbs\breadcrumbs\obj\Debug\breadcrumbs.g.resources
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\breadcrumbs\breadcrumbs\obj\Debug\breadcrumbs.Properties.Resources.resources
 C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\breadcrumbs\breadcrumbs\obj\Debug\breadcrumbs.csproj.GenerateResource.Cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\breadcrumbs\breadcrumbs\obj\Debug\Dictionary1.g.cs

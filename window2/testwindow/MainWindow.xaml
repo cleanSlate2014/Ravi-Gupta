@@ -1,0 +1,9 @@
+﻿<control:window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:control="clr-namespace:window2;assembly=window2"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock Text="Here goes the content!"/>
+    </Grid>
+</control:window>

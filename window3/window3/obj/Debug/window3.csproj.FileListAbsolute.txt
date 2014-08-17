@@ -1,0 +1,17 @@
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\bin\Debug\window3.exe.config
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\window3.csprojResolveAssemblyReference.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\MainWindow.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\App.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\MainWindow.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\App.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\window3_MarkupCompile.cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\window3_MarkupCompile.lref
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\bin\Debug\window3.exe
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\bin\Debug\window3.pdb
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\Dictionary1.baml
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\window3.g.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\window3.Properties.Resources.resources
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\window3.csproj.GenerateResource.Cache
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\window3.exe
+c:\users\ravi-gupta\documents\visual studio 2012\Projects\window3\window3\obj\Debug\window3.pdb

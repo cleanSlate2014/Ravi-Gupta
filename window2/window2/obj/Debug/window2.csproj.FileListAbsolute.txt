@@ -1,0 +1,10 @@
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\obj\Debug\window2.csprojResolveAssemblyReference.cache
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\bin\Debug\window2.dll
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\bin\Debug\window2.pdb
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\obj\Debug\window2_MarkupCompile.cache
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\obj\Debug\window2_MarkupCompile.lref
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\obj\Debug\generic.baml
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\obj\Debug\window2.g.resources
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\obj\Debug\window2.dll
+C:\Users\Ravi-Gupta\documents\visual studio 2012\Projects\window2\window2\obj\Debug\window2.pdb

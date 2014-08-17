@@ -1,0 +1,9 @@
+﻿<control:Dictionary1 x:Class="window3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:control="clr-namespace:window3"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        
+    </Grid>
+</control:Dictionary1>

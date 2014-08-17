@@ -1,1 +1,12 @@
 c:\users\ravi-gupta\documents\visual studio 2012\Projects\busyIndicator\busyIndicator\bin\Debug\busyIndicator.exe.config
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\bin\Debug\busyIndicator.exe
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\bin\Debug\busyIndicator.pdb
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\MainWindow.baml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\MainWindow.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\App.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\busyIndicator_MarkupCompile.cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\busyIndicator.g.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\busyIndicator.Properties.Resources.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\busyIndicator.csproj.GenerateResource.Cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\busyIndicator.exe
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\busyIndicator\busyIndicator\obj\Debug\busyIndicator.pdb

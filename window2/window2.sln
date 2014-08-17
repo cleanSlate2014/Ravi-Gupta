@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "window2", "window2\window2.csproj", "{4129C64D-4A0C-49FF-BA42-C18E3A82DC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testwindow", "testwindow\testwindow.csproj", "{FA40861E-F7F8-4C2F-A053-86AC9CF35E53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4129C64D-4A0C-49FF-BA42-C18E3A82DC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4129C64D-4A0C-49FF-BA42-C18E3A82DC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4129C64D-4A0C-49FF-BA42-C18E3A82DC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4129C64D-4A0C-49FF-BA42-C18E3A82DC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA40861E-F7F8-4C2F-A053-86AC9CF35E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA40861E-F7F8-4C2F-A053-86AC9CF35E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA40861E-F7F8-4C2F-A053-86AC9CF35E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA40861E-F7F8-4C2F-A053-86AC9CF35E53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

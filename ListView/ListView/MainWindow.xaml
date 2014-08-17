@@ -21,6 +21,7 @@
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
+            
             <ListViewItem Content="ListViewItem" Margin="0"/>
             <ListViewItem Content="ListViewItem" Margin="0"/>
             <ListViewItem Content="ListViewItem" Margin="0"/>

@@ -1,1 +1,8 @@
 c:\users\ravi-gupta\documents\visual studio 2012\Projects\testing\testing\bin\Debug\testing.exe.config
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\testing\testing\obj\Debug\MainWindow.baml
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\testing\testing\obj\Debug\MainWindow.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\testing\testing\obj\Debug\App.g.cs
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\testing\testing\obj\Debug\testing_MarkupCompile.cache
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\testing\testing\obj\Debug\testing.g.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\testing\testing\obj\Debug\testing.Properties.Resources.resources
+C:\Users\Ravi-Gupta\Documents\Visual Studio 2012\Projects\testing\testing\obj\Debug\testing.csproj.GenerateResource.Cache

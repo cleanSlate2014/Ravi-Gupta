@@ -1,0 +1,163 @@
+﻿Build started 7/8/2014 1:28:42 PM.
+     1>Project "c:\Users\ravi-gupta\documents\visual studio 2012\Projects\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ConsoleApplication4.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication4.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication4.cpp
+         ConsoleApplication4.cpp
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(8): warning C4627: '#include "pyconfig.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(10): warning C4005: 'CYTHON_USE_PYLONG_INTERNALS' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(6) : see previous definition of 'CYTHON_USE_PYLONG_INTERNALS'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(12): warning C4005: 'CYTHON_USE_PYLONG_INTERNALS' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(10) : see previous definition of 'CYTHON_USE_PYLONG_INTERNALS'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(16): warning C4627: '#include "Python.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(23): warning C4627: '#include <stddef.h>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(54): warning C4005: 'CYTHON_COMPILING_IN_PYPY' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(51) : see previous definition of 'CYTHON_COMPILING_IN_PYPY'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(55): warning C4005: 'CYTHON_COMPILING_IN_CPYTHON' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(52) : see previous definition of 'CYTHON_COMPILING_IN_CPYTHON'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(78): warning C4005: '__PYX_BUILD_PY_SSIZE_T' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(76) : see previous definition of '__PYX_BUILD_PY_SSIZE_T'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(79): warning C4005: 'CYTHON_FORMAT_SSIZE_T' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(65) : see previous definition of 'CYTHON_FORMAT_SSIZE_T'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(80): warning C4005: '__Pyx_PyIndex_Check' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(73) : see previous definition of '__Pyx_PyIndex_Check'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(122): warning C4005: '__Pyx_BUILTIN_MODULE_NAME' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(117) : see previous definition of '__Pyx_BUILTIN_MODULE_NAME'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(124): warning C4005: '__Pyx_PyCode_New' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(119) : see previous definition of '__Pyx_PyCode_New'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(125): warning C4005: '__Pyx_DefaultClassType' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(120) : see previous definition of '__Pyx_DefaultClassType'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(156): warning C4005: 'CYTHON_PEP393_ENABLED' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(147) : see previous definition of 'CYTHON_PEP393_ENABLED'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(157): warning C4005: '__Pyx_PyUnicode_READY' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(149) : see previous definition of '__Pyx_PyUnicode_READY'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(158): warning C4005: '__Pyx_PyUnicode_GET_LENGTH' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(150) : see previous definition of '__Pyx_PyUnicode_GET_LENGTH'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(159): warning C4005: '__Pyx_PyUnicode_READ_CHAR' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(151) : see previous definition of '__Pyx_PyUnicode_READ_CHAR'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(160): warning C4005: '__Pyx_PyUnicode_KIND' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(152) : see previous definition of '__Pyx_PyUnicode_KIND'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(161): warning C4005: '__Pyx_PyUnicode_DATA' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(153) : see previous definition of '__Pyx_PyUnicode_DATA'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(162): warning C4005: '__Pyx_PyUnicode_READ' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(154) : see previous definition of '__Pyx_PyUnicode_READ'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(168): warning C4005: '__Pyx_PyUnicode_Concat' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(165) : see previous definition of '__Pyx_PyUnicode_Concat'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(170): warning C4005: '__Pyx_PyUnicode_ConcatSafe' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(166) : see previous definition of '__Pyx_PyUnicode_ConcatSafe'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(177): warning C4005: '__Pyx_PyString_Format' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(175) : see previous definition of '__Pyx_PyString_Format'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(209): warning C4005: '__Pyx_PyBaseString_Check' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(205) : see previous definition of '__Pyx_PyBaseString_Check'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(210): warning C4005: '__Pyx_PyBaseString_CheckExact' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(206) : see previous definition of '__Pyx_PyBaseString_CheckExact'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(229): warning C4005: 'PyInt_FromSsize_t' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(66) : see previous definition of 'PyInt_FromSsize_t'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(232): warning C4005: 'PyInt_AsSsize_t' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(67) : see previous definition of 'PyInt_AsSsize_t'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(245): warning C4005: '__Pyx_PyInt_FromHash_t' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(242) : see previous definition of '__Pyx_PyInt_FromHash_t'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(246): warning C4005: '__Pyx_PyInt_AsHash_t' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(243) : see previous definition of '__Pyx_PyInt_AsHash_t'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(256): warning C4005: '__Pyx_PySequence_GetSlice' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(249) : see previous definition of '__Pyx_PySequence_GetSlice'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(260): warning C4005: '__Pyx_PySequence_SetSlice' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(250) : see previous definition of '__Pyx_PySequence_SetSlice'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(264): warning C4005: '__Pyx_PySequence_DelSlice' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(251) : see previous definition of '__Pyx_PySequence_DelSlice'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(274): warning C4005: '__Pyx_GetAttrString' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(270) : see previous definition of '__Pyx_GetAttrString'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(275): warning C4005: '__Pyx_SetAttrString' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(271) : see previous definition of '__Pyx_SetAttrString'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(276): warning C4005: '__Pyx_DelAttrString' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(272) : see previous definition of '__Pyx_DelAttrString'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(282): warning C4005: '__Pyx_NAMESTR' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(279) : see previous definition of '__Pyx_NAMESTR'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(283): warning C4005: '__Pyx_DOCSTR' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(280) : see previous definition of '__Pyx_DOCSTR'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(289): warning C4005: 'CYTHON_INLINE' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(287) : see previous definition of 'CYTHON_INLINE'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(291): warning C4005: 'CYTHON_INLINE' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(289) : see previous definition of 'CYTHON_INLINE'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(293): warning C4005: 'CYTHON_INLINE' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(291) : see previous definition of 'CYTHON_INLINE'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(300): warning C4005: 'CYTHON_RESTRICT' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(298) : see previous definition of 'CYTHON_RESTRICT'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(302): warning C4005: 'CYTHON_RESTRICT' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(300) : see previous definition of 'CYTHON_RESTRICT'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(304): warning C4005: 'CYTHON_RESTRICT' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(302) : see previous definition of 'CYTHON_RESTRICT'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(331): warning C4005: '__Pyx_PyNumber_Divide' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(328) : see previous definition of '__Pyx_PyNumber_Divide'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(332): warning C4005: '__Pyx_PyNumber_InPlaceDivide' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(329) : see previous definition of '__Pyx_PyNumber_InPlaceDivide'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(339): warning C4005: '__PYX_EXTERN_C' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(337) : see previous definition of '__PYX_EXTERN_C'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(346): warning C4627: '#include <math.h>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(350): warning C4627: '#include <omp.h>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(362): warning C4005: 'CYTHON_UNUSED' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(360) : see previous definition of 'CYTHON_UNUSED'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(365): warning C4005: 'CYTHON_UNUSED' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(362) : see previous definition of 'CYTHON_UNUSED'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(367): warning C4005: 'CYTHON_UNUSED' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(365) : see previous definition of 'CYTHON_UNUSED'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(399): warning C4005: '__Pyx_PyStr_FromString' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(396) : see previous definition of '__Pyx_PyStr_FromString'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(400): warning C4005: '__Pyx_PyStr_FromStringAndSize' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(397) : see previous definition of '__Pyx_PyStr_FromStringAndSize'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(431): warning C4005: '__pyx_PyFloat_AsDouble' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(429) : see previous definition of '__pyx_PyFloat_AsDouble'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(483): warning C4005: '__Pyx_PyUnicode_FromStringAndSize' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(481) : see previous definition of '__Pyx_PyUnicode_FromStringAndSize'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(515): warning C4005: 'likely' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(512) : see previous definition of 'likely'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(516): warning C4005: 'unlikely' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(513) : see previous definition of 'unlikely'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(561): warning C4005: '__Pyx_RefNannySetupContext' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(558) : see previous definition of '__Pyx_RefNannySetupContext'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(574): warning C4005: '__Pyx_RefNannyDeclarations' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(549) : see previous definition of '__Pyx_RefNannyDeclarations'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(575): warning C4005: '__Pyx_RefNannySetupContext' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(561) : see previous definition of '__Pyx_RefNannySetupContext'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(576): warning C4005: '__Pyx_RefNannyFinishContext' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(564) : see previous definition of '__Pyx_RefNannyFinishContext'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(577): warning C4005: '__Pyx_INCREF' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(565) : see previous definition of '__Pyx_INCREF'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(578): warning C4005: '__Pyx_DECREF' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(566) : see previous definition of '__Pyx_DECREF'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(579): warning C4005: '__Pyx_GOTREF' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(567) : see previous definition of '__Pyx_GOTREF'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(580): warning C4005: '__Pyx_GIVEREF' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(568) : see previous definition of '__Pyx_GIVEREF'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(581): warning C4005: '__Pyx_XINCREF' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(569) : see previous definition of '__Pyx_XINCREF'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(582): warning C4005: '__Pyx_XDECREF' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(570) : see previous definition of '__Pyx_XDECREF'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(583): warning C4005: '__Pyx_XGOTREF' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(571) : see previous definition of '__Pyx_XGOTREF'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(584): warning C4005: '__Pyx_XGIVEREF' : macro redefinition
+                 c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(572) : see previous definition of '__Pyx_XGIVEREF'
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(1099): warning C4627: '#include "longintrepr.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(1199): warning C4627: '#include "longintrepr.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(1395): warning C4627: '#include "compile.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(1396): warning C4627: '#include "frameobject.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(1397): warning C4627: '#include "traceback.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(1627): warning C4627: '#include "longintrepr.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\ravi-gupta\documents\visual studio 2012\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(1676): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+     1>Done Building Project "c:\Users\ravi-gupta\documents\visual studio 2012\Projects\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.60
